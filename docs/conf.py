@@ -53,7 +53,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = 'graphspace-manual'
-copyright = '2017, Aditya Bharadwaj'
+copyright = '2017, Murali`s Research Group'
 author = 'Aditya Bharadwaj'
 
 # The version info for the project you're documenting, acts as replacement for

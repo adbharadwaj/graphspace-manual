@@ -3,16 +3,16 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to graphspace-manual's documentation!
+GraphSpace 2.0 User Manual
 =============================================
 
-Contents:
+.. rubric:: Table of Contents
 
 .. toctree::
    :maxdepth: 2
 
    Introduction
-   Getting_Started
+   Quick_Tour_of_GraphSpace
 
 
 
