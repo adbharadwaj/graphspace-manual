@@ -16,12 +16,3 @@ GraphSpace 2.0 User Manual
    Terminology
    Upload_Graph
 
-
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
-
