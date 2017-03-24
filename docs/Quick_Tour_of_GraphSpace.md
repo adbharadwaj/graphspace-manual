@@ -2,11 +2,7 @@
 
 ## Welcome Screen
 
-The [welcome page](http://graphspace.org) greets a user when the user visits GraphSpace.
-
-<!--TODO: Add screenshot of welcome screen here!-->
-
-The Welcome Screen is designed to access commonly used features of GraphSpace like:
+The [welcome page](http://graphspace.org) greets a user when the user visits GraphSpace. The Welcome Screen is designed to access commonly used features of GraphSpace like:
 
 - Log In
 - Sign Up
@@ -16,7 +12,7 @@ The Welcome Screen is designed to access commonly used features of GraphSpace li
 
 ### Log In
 
-TBD
+![Amazon Sample](_static/gifs/gs-screenshot-user1-logging-in-with-caption.gif)
 
 ### Sign Up
 
