@@ -28,12 +28,21 @@ The user can create an account on [GraphSpace](http://www.graphspace.org) by fol
 1. Click on the `Create Account` button on the top navigation bar. This will trigger a create account window/pop-up to be displayed.
 2. Enter the your email address. 
 3. Enter a password for your account.
-4. Enter the password again.
+4. Verify your password by entering the same password again.
 5. Click on `Submit` button to create the account with the given email address and password.
 
 ![Create Account](_static/gifs/gs-screenshot-user5-creating-account-with-caption.gif)
 
 ### Upload a graph
+
+The user can upload a graph on [GraphSpace](http://www.graphspace.org) by following the given steps:
+
+1. Go to the [Upload Graph Page](http://www.graphspace.org/upload) by clicking on the `Upload Graph` button on [Home Page](http://www.graphspace.org/).
+2. Enter a unique name for the new graph.
+3. Select a CYJS file which contains the graph information.
+4. Select a JSON file which contains the style information for the graph. (Optional Step)
+5. Click on `Submit` button to upload the graph using the selected files.
+6. Once the graph has been uploaded, [GraphSpace](http://www.graphspace.org) will provide a unique URL through which the user may interact with the graph represented by the uploaded files.
 
 ![Upload a graph](_static/gifs/gs-screenshot-user1-upload-graph-with-caption.gif)
 
