@@ -90,4 +90,21 @@ In the following example, the user searches for the graph for edges from `Wnt` t
 
 ## Interacting with a Graph
 
-TBD
+The Graph Page is designed to access features like:
+
+### Graph Information
+
+As its name suggests, the `Graph Information` panel displays information about the entire graph, e.g., a legend of node and edge shapes and colors. The user can go to `Graph Information` panel by clicking on the `Graph Information` link above the graph. The information that appears in `Graph Information` panel must be included in the JSON for the graph uploaded by the user using the RESTful API.
+
+![Graph Details](_static/gifs/gs-screenshot-user1-graph-information-with-caption.gif)
+
+
+### Edge and Node Details
+
+Clicking on a node or edge pops up a panel with information on that node or edge. The information that appears in the pop-up panels must be included in the JSON for the graph uploaded by the user using the RESTful API.
+
+![Graph Details](_static/gifs/gs-screenshot-user1-node-edge-pop-up-with-caption.gif)
+
+### Export Graph
+
+### Change Layout
