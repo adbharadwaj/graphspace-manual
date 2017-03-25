@@ -66,13 +66,20 @@ The user can search for graph with a given name or node or an edge on [Graphs Pa
 1. Enter the name of the graph, node or an edge you are searching for in the search bar.
 2. Press `Enter` key or click on the `Search` button.
 
-In this example, the user searches for the list for graphs that contain the protein (node) `CTNNB1` (the symbol for β-catenin, a transcriptional regulator in the Wnt signaling pathway). The reduced list of graphs are the graphs where proteins names/labels (nodes) contain `CTNNB1` as a substring. In the following example, There are six graphs owned by the user and thirty-two public graphs that contain this protein. Each link in the `Graph Name` column will take the user to a specific graph with the search term highlighted. In this example, the user clicks on the graph with the name "KEGG-Wnt-signaling-pathway" and reaches the graph for the Wnt pathway with the searched node highlighted.
+In this example, the user searches for the list for graphs that contain the protein (node) `CTNNB1` (the symbol for β-catenin, a transcriptional regulator in the Wnt signaling pathway). The reduced list of graphs are the graphs where proteins names/labels (nodes) contain `CTNNB1` as a substring. In the following example, There are six graphs owned by the user and thirty-two public graphs that contain this protein. Each link in the `Graph Name` column will take the user to a specific graph with the search term highlighted. In this example, the user clicks on the graph with the name `KEGG-Wnt-signaling-pathway` and reaches the graph for the Wnt pathway with the searched node highlighted.
 
 ![Searching within Multiple Graphs](_static/gifs/gs-screenshot-user1-searching-withing-multiple-graphs-with-caption.gif)
 
 ## Searching within a Single Graph
 
-TBD
+The user can search for node or edges within a given graph on [GraphSpace](http://www.graphspace.org/) by following the given steps:
+
+1. Enter the name of the node or an edge you are searching for in the search bar.
+2. The nodes or edges are highlighted automatically as you type in the name of the node or edge in the search bar.
+
+In this example, the user searches for the graph for two proteins (nodes) `CTNNB1` and `WNT` using the query `ctnnb1, wnt`. This search query highlights the proteins where protein (node) name/label contains `CTNNB1` or `WNT` as a substring (case-insensitive). In the following example, the graph contains four nodes which match the given query.
+
+![Searching within a Single Graph](_static/gifs/gs-screenshot-user1-searching-nodes-within-a-single-graphs-with-caption.gif)
 
 ## Interacting with a Graph
 
