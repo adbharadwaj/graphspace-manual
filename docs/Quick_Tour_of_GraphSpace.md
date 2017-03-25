@@ -7,8 +7,7 @@ The [welcome page](http://graphspace.org) greets a user when the user visits Gra
 - Log In
 - Create Account
 - Upload a graph
-- View public graph
-- View graphs uploaded by the logged in user.
+- List of uploaded graphs.
 
 ### Log In
 
@@ -20,7 +19,11 @@ The [welcome page](http://graphspace.org) greets a user when the user visits Gra
 
 ### Upload a graph
 
-TBD
+![Upload a graph](_static/gifs/gs-screenshot-user1-upload-graph-with-caption.gif)
+
+### List of uploaded graphs
+
+![List of uploaded graphs](_static/gifs/gs-screenshot-user1-go-graphs-list-page-with-caption.gif)
 
 ## Searching within Multiple Graphs
 
