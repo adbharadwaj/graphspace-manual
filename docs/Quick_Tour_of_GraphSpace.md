@@ -92,6 +92,12 @@ In the following example, the user searches for the graph for edges from `Wnt` t
 
 The Graph Page is designed to access features like:
 
+- Graph Information
+- Edge and Node Information
+- Export Graph
+- Change Layout
+- Share Layout
+
 ### Graph Information
 
 As its name suggests, the `Graph Information` panel displays information about the entire graph, e.g., a legend of node and edge shapes and colors. The user can go to `Graph Information` panel by clicking on the `Graph Information` link above the graph. The information that appears in `Graph Information` panel must be included in the JSON for the graph uploaded by the user using the RESTful API.
@@ -126,4 +132,18 @@ In the following example, the user is exporting the graph as an image in PNG for
 In the following example, the user selects to view the layout titled "manual-top-to-bottom".
     
 ![Change Layout](_static/gifs/gs-screenshot-user1-change-layout-with-caption.gif)
+
+### Share Layout
+
+[GraphSpace](http://www.graphspace.org) allows users to share a layout using the following steps:
+
+1. Click on the `Layouts` link above the graph.
+2. The layouts panel shows two types of layouts:
+    - **Private Layouts** - The user has created them in earlier sessions by manually modifying the positions of nodes and edges. But the user has not shared them with any other user.
+    - **Shared Layouts** - These layouts were created by the user who has access to this graph and shared the layout with other users who have access to this graph.
     
+3. Click on the `Share` link next to the layout name of a private layout you want to share with other users who have access to this graph.
+
+Note: The icons next to each layout name allow the user to (i) change its name, (ii) share it with other users who have access to this graph, (iii) delete this layout.
+
+![Share Layout](_static/gifs/gs-screenshot-user1-share-layout-with-caption.gif)
