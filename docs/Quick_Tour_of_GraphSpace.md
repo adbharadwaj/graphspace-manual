@@ -11,6 +11,7 @@ The [welcome page](http://graphspace.org) greets a user when the user visits Gra
 
 ### Log In
 
+The user can log-in to [GraphSpace](http://www.graphspace.org) using  
 ![Log In](_static/gifs/gs-screenshot-user1-logging-in-with-caption.gif)
 
 ### Create Account
