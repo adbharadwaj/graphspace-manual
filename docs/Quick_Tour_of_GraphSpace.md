@@ -50,15 +50,14 @@ The user can upload a graph on [GraphSpace](http://www.graphspace.org) by follow
 
 The user can go to [a page that lists the graphs](http://www.graphspace.org/graphs/) accessible by the user on [GraphSpace](http://www.graphspace.org) by following the given steps:
 
-- Clicking on the button titled `Graphs` on the top navigation bar.
+- Click on the button titled `Graphs` on the top navigation bar.
  
      OR
 
-- Click on the `My Graphs` button on the home page.
-
-In this example, this user owns 33 graphs, can access 64 public graphs and 33 graphs are shared with this user.
+- Click on the `My Graphs` button on the [Home Page](http://www.graphspace.org/).
 
 ![List of uploaded graphs](_static/gifs/gs-screenshot-user1-go-graphs-list-page-with-caption.gif)
+In this example, this user owns 33 graphs, can access 64 public graphs and 33 graphs are shared with this user.
 
 ## Searching within Multiple Graphs
 
