@@ -52,7 +52,7 @@ The user can go to [a page that lists the graphs](http://www.graphspace.org/grap
 
 - Clicking on the button titled `Graphs` on the top navigation bar.
  
- <center>OR</center>
+ <p class="text-center">OR</p>
 
 - Click on the `My Graphs` button on the home page.
 
