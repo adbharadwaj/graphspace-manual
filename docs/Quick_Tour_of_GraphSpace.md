@@ -99,12 +99,31 @@ As its name suggests, the `Graph Information` panel displays information about t
 ![Graph Details](_static/gifs/gs-screenshot-user1-graph-information-with-caption.gif)
 
 
-### Edge and Node Details
+### Edge and Node Information
 
 Clicking on a node or edge pops up a panel with information on that node or edge. The information that appears in the pop-up panels must be included in the JSON for the graph uploaded by the user using the RESTful API.
 
-![Graph Details](_static/gifs/gs-screenshot-user1-node-edge-pop-up-with-caption.gif)
+![Edge and Node Information](_static/gifs/gs-screenshot-user1-node-edge-pop-up-with-caption.gif)
 
 ### Export Graph
 
+[GraphSpace](http://www.graphspace.org) allows users to export a graph as an image file or a JSON file. GraphSpace does not support any other export formats since it relies on [Cytoscape.js](http://js.cytoscape.org) for this functionality, which implements only export to PNG, JPG and JSON format. 
+
+In the following example, the user is exporting the graph as an image in PNG format.
+
+![Export Graph](_static/gifs/gs-screenshot-user1-export-graph-png-with-caption.gif)
+
 ### Change Layout
+
+[GraphSpace](http://www.graphspace.org) allows users to change layout using the following steps:
+
+1. Click on the `Change Layout` button to view available layout options.
+2. The `Change Layout` panel provides two alternatives:
+    - **Select Layout Algorithm** - List of layout algorithms supported by GraphSpace through its use of [Cytoscape.js](http://js.cytoscape.org).
+    - **Select Saved Layout** - List of layout saved by the user using GraphSpace. The user has created them in earlier sessions by manually modifying the positions of nodes and edges created by some automatic layout algorithm and saving the layout.
+3. Click on a layout option to change the current layout.
+
+In the following example, the user selects to view the layout titled "manual-top-to-bottom".
+    
+![Change Layout](_static/gifs/gs-screenshot-user1-change-layout-with-caption.gif)
+    
