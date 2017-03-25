@@ -11,7 +11,8 @@ The [welcome page](http://graphspace.org) greets a user when the user visits Gra
 
 ### Log In
 
-The user can log-in to [GraphSpace](http://www.graphspace.org) using  
+The user can log-in to [GraphSpace](http://www.graphspace.org) by clicking on the `Log In` button on the right side of the top navigation bar. A click on the `Log In` button will trigger the log-in window/popup to appear. The user can enter his/her email address and password to log in to his/her account.
+
 ![Log In](_static/gifs/gs-screenshot-user1-logging-in-with-caption.gif)
 
 ### Create Account
