@@ -16,5 +16,5 @@ GraphSpace 2.0 User Manual
    Quick_Tour_of_GraphSpace
    Terminology
    Uploading_Graphs
-   Network_View
+   Viewing_Graphs
 
