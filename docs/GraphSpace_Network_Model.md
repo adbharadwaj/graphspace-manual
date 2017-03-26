@@ -57,13 +57,13 @@ Here is the list of all the properties that GraphSpace supports from `Graph Data
 
 - required:
 
-    `name` – text – Name of the graph. It is later used for searching the graph in GraphSpace.
-    `tags` – list of strings – Used to categorize graphs. See Tags for more information.
-    `description` – text – May be HTML formatted string. May be link to image hosted elsewhere. May simly be a string which contains information such as a legend or significance of the graph.
+    - `name` – text – Name of the graph. It is later used for searching the graph in GraphSpace.
+    - `tags` – list of strings – Used to categorize graphs. See Tags for more information.
+    - `description` – text – May be HTML formatted string. May be link to image hosted elsewhere. May simly be a string which contains information such as a legend or significance of the graph.
     
 - optional:
 
-    "title" – text – Name that is displayed on top of graph while viewing it.
+    - `title` – text – Name that is displayed on top of graph while viewing it.
 
 
 
