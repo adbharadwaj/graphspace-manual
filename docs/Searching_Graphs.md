@@ -41,6 +41,14 @@ In the following example, the user searches for the graph for edges from `Wnt` t
 
 ## Advanced Search
 
+Use the Advanced search query builder to search for proteins using their alias in UNIPROT namespace and their genenames.
 
+To search by nodes, select Node from the Elements menu, and then enter a protein’s name, the name will automatically display in the search box. The author search box includes an autocomplete feature.
+
+To search by edges, select Edge from the Elements menu, and then enter a head and tail protein names, the name will automatically display in the search box. The author search box includes an autocomplete feature.
+
+Terms entered in the builder are automatically added to the search box.
+
+**Note** that the Boolean operator is OR. We plan to add functionality to choose AND and NOT operator in the next release.
 
 
