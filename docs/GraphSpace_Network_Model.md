@@ -118,7 +118,7 @@ The `Edge Object` describes a node in the graph. An `Edge Object` typically cont
     
 - optional:
 
-    - `label` – text – The text that is displayed inside of the node.
+    - `label` – text – The text that is displayed inside of the node unless it is overidden by the `content` style-attribute in the [stylesheet JSON](#stylesheet-json-format).
     - `popup` - text - A string that will be displayed in a popup window when the user clicks the node. This string can be HTML-formatted.
     - `k` - integer -An integer index for this node. GraphSpace uses this attribute when the user seeks to step through the nodes and edges of the graph.
     
@@ -139,42 +139,50 @@ The `Edge Object` describes a node in the graph. An `Edge Object` typically cont
     
 **Note:** The user can use add more data attributes to embed information about the edge. But, if the attributes are not specially treated by GraphSpace, they will be treated as "opaque". This means that GraphSpace will store or transmit the data without any processing.
 
+### Sample JSON
 
-The overall structure of CYJS formatted JSON file looks like the following sample structure:
-```
+The following example is a CYJS formatted JSON for GraphSpace.
+
+```JSON
 {
-    "elements":{  
-        "nodes":[ // list of graph nodes 
+    "elements": {
+        "nodes": [ 
             {
-                "data": { // data-attributes specify name-value pairs describing the node.
-                    "id": ... // identifier for the node
-                },
-                "position": { // can optionally specify position of the node.
-                    "x": ...
-                    "y": ...
+                "data": {
+                    "id":"P4314611",
+                    "label": "DCC",
+                    "k": 0
                 }
             }, 
-            .
-            .
+            {
+                "data": {
+                    "id":"P0810711",
+                    "label": "This is an example\n of how to use new lines for the content of\n a node.",
+                    "k": 0
+                }
+            }
         ],
-        "edges":[ // list of graph edges 
+        "edges": [
             {
-                "data": { // data-attributes specify name-value pairs describing the edge.
-                    "source": ..., // identifier for the source node
-                    "target": ...  // identifier for the target node
+                "data": {
+                    "source": "P4314611",
+                    "target": "P0810711",
+                    "k": 0
                 }
-            }, 
-            .
-            .
+            }
         ]
+
     },
-    "data": { // data-attributes specify name-value pairs describing the graph.
-        "title": ...,       // title for the graph
-        "tags": [..],       // list of tags for the graph,
-        "description": ...  // description for the graph e.g., legend
+    "data": {
+        "title": "Graph Name",
+        "description": "Description of graph.. can also point to an image hosted elsewhere",
+        "tags": [
+            "tutorial"
+        ]
     }
 }
 ```
+
 
 ## Stylesheet JSON Format
 
