@@ -143,7 +143,7 @@ The `Edge Object` describes a node in the graph. An `Edge Object` typically cont
 
 The following example is a CYJS formatted JSON for GraphSpace.
 
-```JSON
+```json
 {
     "elements": {
         "nodes": [ 
