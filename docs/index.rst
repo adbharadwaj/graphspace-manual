@@ -10,7 +10,7 @@ GraphSpace 2.0 User Manual
 
 .. toctree::
    :maxdepth: 2
-   :numbered: 5
+   :numbered: 3
 
    Introduction
    Quick_Tour_of_GraphSpace
