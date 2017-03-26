@@ -29,7 +29,7 @@ The image below shows an example of the popup shown for a node JAK2.
 
 EGFR before highlighting             |  EGFR after highlighting 
 :-------------------------:|:-------------------------:
-![Before Highlighted](_static/images/gs-screenshot-user1-lovastatin-node-befoe-highlighted-egfr.png)  |  ![After Highlighted](_static/images/gs-screenshot-user1-lovastatin-node-after-highlighted-egfr.png)
+![Before Highlighted](_static/images/gs-screenshot-user1-lovastatin-node-before-highlighted-egfr.png)  |  ![After Highlighted](_static/images/gs-screenshot-user1-lovastatin-node-after-highlighted-egfr.png)
 
 
 
