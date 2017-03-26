@@ -1,4 +1,4 @@
-# Supported File Formats
+# GraphSpace Network Model
 
 ## CYJS Format
 
