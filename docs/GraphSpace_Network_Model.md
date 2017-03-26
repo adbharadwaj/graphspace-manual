@@ -104,11 +104,40 @@ The `Node Object` describes a node in the graph. A `Node Object` typically conta
 
 The `Edge Object` describes a node in the graph. An `Edge Object` typically contains a data object which is defined as following:
 
-1. **Edge Data Attributes**: 
+- **Edge Data Attributes**: 
     
     Edge Data Attributes specify name-value pairs describing the edge. Cytoscape requires that each Edge Object should have  `source` and `target` data attributes which can respectively identify the source and target nodes for the edge in the graph. The users can define more data-attributes to describe the edge. But, if the attributes are not specially treated by GraphSpace, they will be treated as "opaque". This means that GraphSpace will store or transmit the data attributes without any processing. Please refer to list of edge data attributes treated specially by GraphSpace to make the best use of GraphSpace's features.
     
+#### Node Data Attributes Attributes Treated Specially by GraphSpace
+
+- required:
+
+    - `id` – text – A unique id representing the node.
     
+- optional:
+
+    - `label` – text – The text that is displayed inside of the node.
+    - `popup` - text - A string that will be displayed in a popup window when the user clicks the node. This string can be HTML-formatted.
+    - `k` - integer -An integer index for this node. GraphSpace uses this attribute when the user seeks to step through the nodes and edges of the graph.
+    
+**Note:** The user can use add more data attributes to embed information about the node. But, if the attributes are not specially treated by GraphSpace, they will be treated as "opaque". This means that GraphSpace will store or transmit the data without any processing.
+
+
+#### Edge Data Attributes Attributes Treated Specially by GraphSpace
+
+- required:
+
+    - `source` – text – The id of the node where the edge is coming from.
+    - `target` – text – The id of the node where edge is going to.
+    
+- optional:
+
+    - `popup` - text - A string that will be displayed in a popup window when the user clicks the edge. This string can be HTML-formatted.
+    - `k` - integer - An integer index for this node. GraphSpace uses this attribute when the user seeks to step through the nodes and edges of the graph.
+    
+**Note:** The user can use add more data attributes to embed information about the edge. But, if the attributes are not specially treated by GraphSpace, they will be treated as "opaque". This means that GraphSpace will store or transmit the data without any processing.
+
+
 The overall structure of CYJS formatted JSON file looks like the following sample structure:
 ```
 {
