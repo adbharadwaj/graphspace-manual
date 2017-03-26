@@ -9,8 +9,8 @@ GraphSpace 2.0 User Manual
 .. rubric:: Table of Contents
 
 .. toctree::
-   :maxdepth: 3
-   :numbered: 3
+   :maxdepth: 2
+   :numbered: 5
 
    Introduction
    Quick_Tour_of_GraphSpace
