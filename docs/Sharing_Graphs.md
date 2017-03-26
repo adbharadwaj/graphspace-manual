@@ -21,3 +21,17 @@ Similar to a graph, a layout may also be shared with a group. In order for a lay
 2. Shared graphs
 
     The layout is accessible to every user who is a member of a group with which the graph is shared, as long as the layout creater is also a member of that group.
+
+
+GraphSpace](http://www.graphspace.org) allows users to share a layout using the following steps:
+
+1. Click on the `Layouts` link above the graph.
+2. The layouts panel shows two types of layouts:
+    - **Private Layouts** - The user has created them in earlier sessions by manually modifying the positions of nodes and edges. But the user has not shared them with any other user.
+    - **Shared Layouts** - These layouts were created by the user who has access to this graph and shared the layout with other users who have access to this graph.
+    
+3. Click on the `Share` link next to the layout name of a private layout you want to share with other users who have access to this graph.
+
+Note: The icons next to each layout name allow the user to (i) change its name, (ii) share it with other users who have access to this graph, (iii) delete this layout.
+
+![Share Layout](_static/gifs/gs-screenshot-user1-share-layout-with-caption.gif)
