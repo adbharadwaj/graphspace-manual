@@ -4,7 +4,7 @@
 
 GraphSpace only supports one of the [Cytoscape.js supported](http://js.cytoscape.org/#notation/elements-json) JSON formats, which is:
 
-```JSON
+```
 {
     "elements":{  
         "nodes":[ // list of graph nodes 
