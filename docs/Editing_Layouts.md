@@ -35,7 +35,8 @@ The `Arrange nodes` section allows a user to arrange all selected nodes into reg
 | ![open circle](_static/gifs/gs-screenshot-user1-wnt-pathway-reconstruction-arrange-nodes-open-circle-with-caption.gif)  |  ![closed circle](_static/gifs/gs-screenshot-user1-wnt-pathway-reconstruction-arrange-nodes-closed-circle-with-caption.gif) |
 |---|---|
 |  ![open rectangle](_static/gifs/gs-screenshot-user1-wnt-pathway-reconstruction-arrange-nodes-open-rectangle-with-caption.gif) |  ![closed rectangle](_static/gifs/gs-screenshot-user1-wnt-pathway-reconstruction-arrange-nodes-closed-rectangle-with-caption.gif) |
-|   |   |
+|  ![vertical line](_static/gifs/gs-screenshot-user1-wnt-pathway-reconstruction-arrange-nodes-vertical-with-caption.gif) |  ![horizontal line](_static/gifs/gs-screenshot-user1-wnt-pathway-reconstruction-arrange-nodes-horizontal-with-caption.gif)  |
+|  ![pinch](_static/gifs/gs-screenshot-user1-wnt-pathway-reconstruction-arrange-nodes-pinch-with-caption.gif) | ![expand](_static/gifs/gs-screenshot-user1-wnt-pathway-reconstruction-arrange-nodes-expand-with-caption.gif)  |
 
 
 
