@@ -19,7 +19,7 @@ The Graph Visualization Tab has two sections:
 
 ### Node and Edge Popups
 
-Each node or edge in a graph may have information embedded in it via the popup attribute. Clicking on a node or edge will highlight them. If the clicked node/edge contains popup attribute (see JSON reference), popup attribute's value will appear in a pop-up box; otherwise, no popup will be shown. If the popup attribute's value is formatted in HTML, GraphSpace will interpret it appropriately else it will use it as free-text information. 
+Each node or edge in a graph may have information embedded in it via the popup attribute. Clicking on a node or edge will [highlight](#highlighted-graph-elements) them. If the clicked node/edge contains popup attribute (see JSON reference), popup attribute's value will appear in a pop-up box; otherwise, no popup will be shown. If the popup attribute's value is formatted in HTML, GraphSpace will interpret it appropriately else it will use it as free-text information. 
 
 The image below shows an example of the popup shown for a node JAK2. 
 
@@ -34,7 +34,6 @@ The image below shows an example of node EGFR before and after highlighting.
 EGFR before highlighting             |  EGFR after highlighting 
 :-------------------------:|:-------------------------:
 ![Before Highlighted](_static/images/gs-screenshot-user1-lovastatin-node-before-highlighted-egfr.png)  |  ![After Highlighted](_static/images/gs-screenshot-user1-lovastatin-node-after-highlighted-egfr.png)
-
 
 
 ## Graph Information Tab
