@@ -7,8 +7,29 @@ GraphSpace only supports one of the Cytoscape.js supported JSON formats, which i
 ```
 {
     elements:{
-        nodes:[],
-        edges:[]
+        nodes:[
+            {
+                data: { 
+                    id: ...
+                },
+                position: { 
+                    x: ...
+                    y: ...
+                }
+            }, 
+            .
+            .
+        ],
+        edges:[
+            {
+                data: { 
+                    source: ...,
+                    target: ...
+                }
+            }, 
+            .
+            .
+        ]
     }
 }
 ```
