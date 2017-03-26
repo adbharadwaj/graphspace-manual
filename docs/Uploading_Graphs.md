@@ -20,21 +20,38 @@ GraphSpace users can also upload graphs using GraphSpace's REST API. Please refe
 
 As an alternative to the REST API for uploading a graph, we provide a simple web interface for uploading individual graphs. 
 
+
+### Upload Graph Form
+
 <a href="#graph-upload-form">
-<img src="./_static/images/gs-screenshot-upload-graph-form.png" width="400", alt="Graph Upload Form" />
+<img src="./_static/images/gs-screenshot-upload-graph-form.png" width="300", alt="Graph Upload Form" />
 </a>
 
 The upload graph form has three input fields:
 
-### Graph Name 
+#### Graph Name 
 
 The name of the graph. GraphSpace allows users to search graphs by their name.
-### Network File 
+#### Network File 
 
-The network file in [JSON (JavaScript Object Notation)](http://www.json.org/) format defined by Cytoscape. A Cytoscape (v3.1 or later) user can [export their graph](http://manual.cytoscape.org/en/stable/Cytoscape.js_and_Cytoscape.html#export-network-and-table-to-cytoscape-js) in the JSON format. Since the extension of exportable JSON file from Cytoscape is `.cyjs`, we call the format as `CYJS` format in the rest of the documentation.
+The network file containing the graphs structure and data information in [CYJS Format](#cyjs-format).
 
+##### CYJS Format
 
-### Style File 
+GraphSpace only supports one of the Cytoscape.js supported JSON formats, which is:
+
+```
+{
+    elements:{
+        nodes:[],
+        edges:[]
+    }
+}
+```
+
+This [JSON (JavaScript Object Notation)](http://www.json.org/) format is defined by Cytoscape for storing network structure and data information. A Cytoscape (v3.1 or later) user can easily [export their graph](http://manual.cytoscape.org/en/stable/Cytoscape.js_and_Cytoscape.html#export-network-and-table-to-cytoscape-js) in above mentioned JSON format. We call the format as `CYJS` format because the extension of the exportable JSON file from Cytoscape App is `.cyjs`.
+
+#### Style File 
 
 Cytoscape and Cytoscape.js are sharing a concept called [Style](http://manual.cytoscape.org/en/stable/Cytoscape.js_and_Cytoscape.html#export-styles-to-cytoscape-js). This is a collection of mappings from data point to network property. Cytoscape can export its Styles into CSS-based Cytoscape.js JSON. 
 
