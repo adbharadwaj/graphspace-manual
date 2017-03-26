@@ -1,4 +1,4 @@
-# Upload Graph
+# Uploading Graphs
 
 
 GraphSpace provides two methods to upload graphs: through the REST API or through the web interface.
