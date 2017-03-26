@@ -76,10 +76,11 @@ As its name suggests, the `Layouts` tab displays information about the layouts i
 - **Private Layouts** - The user has created them in earlier sessions by manually modifying the positions of nodes and edges. But the user has not shared them with any other user.
 - **Shared Layouts** - These layouts were created by the user who has access to this graph and shared the layout with other users who have access to this graph.
     
+The icons next to each layout name allow the user to (i) change its name, (ii) share/unshare it with other users who have access to this graph, (iii) delete this layout.
+
 The image below shows an example of Layouts Tab when user clicks on the `Layouts` tab link. In this example, the user has created 1 private layout and has access to four shared layouts.
 
 ![Graph Layouts Tab Image](_static/images/gs-screenshot-user1-lovastatin-graph-layouts-tab.png)
 
-The icons next to each layout name allow the user to (i) change its name, (ii) share it with other users who have access to this graph, (iii) delete this layout.
 
 
