@@ -47,13 +47,13 @@ Any deviation from this format may result in GraphSpace rejecting the graph or p
 The elements JSON object contains two types of lists:
 
 1.  List of Node Objects: An array of node objects describing the nodes in the graph.
-2.  List of Edge Objects: An array of node objects describing the edges in the graph.
+2.  List of Edge Objects: An array of edge objects describing the edges in the graph.
 
 ### Graph Data Attributes
 
-The `Graph Data Attributes` object specifies name-value pair describing the graph. Cytoscape supports `Graph Data Attributes` for both import and export. The `Graph Data Attributes` are mapped to the Cytoscape network table for an network.
+The `Graph Data Attributes` object specifies name-value pair describing the graph. The `Graph Data Attributes` are mapped to the Cytoscape network table for a network on import. Cytoscape supports `Graph Data Attributes` for both import and export.
 
-Here is the list of all the properties that GraphSpace supports from `Graph Data Attributes`.
+#### Graph Data Attributes Attributes Treated Specially by GraphSpace
 
 - required:
 
@@ -64,8 +64,27 @@ Here is the list of all the properties that GraphSpace supports from `Graph Data
 - optional:
 
     - `title` – text – Name that is displayed on top of graph while viewing it.
+    
+**Note:** The user can use add more data attributes to embed information about the graph. If the attributes are not specially treated by GraphSpace, they will be treated as "opaque". This means that GraphSpace will store or transmit the data without any processing.
+    
+### Node Object
 
+```
+{
+    "data": {     // Node Data Attributes
+        "id": ... 
+    },
+    "position": { // Position Attributes
+        "x": ...
+        "y": ...
+    }
+}           
+```
 
+The `Node Object` describes a node in the graph. A `Node Object` typically contains two types of attributes:
+
+#### 1. Node Data Attributes: An object specifying name-value pairs describing the node.
+#### 2. Position Attributes: An object specifying the position of the node in the graph layout.
 
 ```
 {
