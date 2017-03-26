@@ -72,7 +72,7 @@ The `Graph Data Attributes` object specifies name-value pair describing the grap
 ```
 {
     "data": {     // Node Data Attributes
-        "id": ... 
+        "id": ... // unique identifier for the node
     },
     "position": { // Position Attributes
         "x": ...
@@ -83,9 +83,33 @@ The `Graph Data Attributes` object specifies name-value pair describing the grap
 
 The `Node Object` describes a node in the graph. A `Node Object` typically contains two types of attributes:
 
-#### 1. Node Data Attributes: An object specifying name-value pairs describing the node.
-#### 2. Position Attributes: An object specifying the position of the node in the graph layout.
+1. **Node Data Attributes**: 
+    
+    Node Data Attributes specify name-value pairs describing the node. Cytoscape requires that each Node Object should have an  `id` data attribute which can uniquely identify the element in the graph. The users can define more data-attributes to describe the node. But, if the attributes are not specially treated by GraphSpace, they will be treated as "opaque". This means that GraphSpace will store or transmit the data without any processing. Please refer to list of node data attributes treated specially by GraphSpace to make the best use of GraphSpace's features.
+    
+2. **Position Attributes**: 
+    
+    Position Attributes specify the [model position](http://js.cytoscape.org/#notation/position) of the node in the graph layout. For example, `{ x: 100, y: 100 }` specifies a point 100 pixels to the right and 100 pixels down from the top-left corner of the viewport at zoom 1 and pan (0,0).
+    
+### Edge Object
 
+```
+{
+    "data": {     // Node Data Attributes
+        "source": ..., // identifier for the source node
+        "target": ...  // identifier for the target node
+    }
+}           
+```
+
+The `Edge Object` describes a node in the graph. An `Edge Object` typically contains a data object which is defined as following:
+
+1. **Edge Data Attributes**: 
+    
+    Edge Data Attributes specify name-value pairs describing the edge. Cytoscape requires that each Edge Object should have  `source` and `target` data attributes which can respectively identify the source and target nodes for the edge in the graph. The users can define more data-attributes to describe the edge. But, if the attributes are not specially treated by GraphSpace, they will be treated as "opaque". This means that GraphSpace will store or transmit the data attributes without any processing. Please refer to list of edge data attributes treated specially by GraphSpace to make the best use of GraphSpace's features.
+    
+    
+The overall structure of CYJS formatted JSON file looks like the following sample structure:
 ```
 {
     "elements":{  
