@@ -43,12 +43,21 @@ In the following example, the user searches for the graph for edges from `Wnt` t
 
 Use the Advanced search query builder to search for proteins using their alias in UNIPROT namespace and their genenames.
 
-To search by nodes, select Node from the Elements menu, and then enter a protein’s name, the name will automatically display in the search box. The author search box includes an autocomplete feature.
+To search by nodes, select Node from the Elements menu, and then enter a protein’s name, the name will automatically display in the search box. The search box includes an autocomplete feature.
 
-To search by edges, select Edge from the Elements menu, and then enter a head and tail protein names, the name will automatically display in the search box. The author search box includes an autocomplete feature.
+To search by edges, select Edge from the Elements menu, and then enter a head and tail protein names, the name will automatically display in the search box. The search box includes an autocomplete feature.
 
 Terms entered in the builder are automatically added to the search box.
 
 **Note** that the Boolean operator is OR. We plan to add functionality to choose AND and NOT operator in the next release.
 
+### Understanding the autocomplete results
+
+This image shows an example where the user is searching for proteins with name `egfr`. The autocomplete box shows three options:
+
+- **egfr** - Any protein whose name/label contains egfr as a substring.
+- **EGFR (UniprotKB: P00533)** - Any protein whose name/label contains P00533 as a substring.
+- **Egfr (UniprotKB: Q01279)** - Any protein whose name/label contains Q01279 as a substring.
+
+![Advanced Search Image](_static/images/gs-screenshot-graphs-list-page-advanced-search-node-egfr.png)
 
