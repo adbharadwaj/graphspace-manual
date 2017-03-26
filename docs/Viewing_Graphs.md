@@ -23,7 +23,7 @@ Each node or edge in a graph may have information embedded in it via the popup a
 
 The image below shows an example of the popup shown for a node JAK2. 
 
-![Graph Visualization Tab](_static/images/gs-screenshot-user1-lovastatin-graph-visualization-tab.png)
+![Graph Visualization Tab](_static/images/gs-screenshot-user1-lovastatin-node-popup.png)
 
 ### Highlighted Graph Elements
 
