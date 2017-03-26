@@ -18,9 +18,7 @@ If a user has an account and is logged in, [this interface](#upload-graph-form) 
 
 ### Upload Graph Form
 
-<a href="#graph-upload-form">
-<img src="./_static/images/gs-screenshot-upload-graph-form.png" width="300", alt="Graph Upload Form" />
-</a>
+![Upload Graph](_static/images/gs-screenshot-upload-graph-form.png)
 
 The upload graph form has three input fields:
 
