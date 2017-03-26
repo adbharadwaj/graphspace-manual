@@ -40,10 +40,20 @@ EGFR before highlighting             |  EGFR after highlighting
 
 As its name suggests, the `Graph Information` panel displays information about the entire graph, e.g., a legend of node and edge shapes and colors. The user can go to `Graph Information` panel by clicking on the `Graph Information` tab link above the graph. The information that appears in `Graph Information` panel must be included in the JSON for the graph uploaded by the user using the RESTful API.
 
+The image below shows an example of Graph Information Tab when user clicks on the `Graph Information` tab link:
+
 ![Graph Information Tab Image](_static/images/gs-screenshot-user1-lovastatin-graph-information-tab.png)
 
 ## Edges Tab
 
+The image below shows an example of Edges Tab when user clicks on the `Edges` tab link:
+
+![Graph Information Tab Image](_static/images/gs-screenshot-user1-lovastatin-graph-edges-tab.png)
+
 ## Nodes Tab
+
+The image below shows an example of Nodes Tab when user clicks on the `Nodes` tab link:
+
+![Graph Information Tab Image](_static/images/gs-screenshot-user1-lovastatin-graph-nodes-tab.png)
 
 ## Layouts Tab
