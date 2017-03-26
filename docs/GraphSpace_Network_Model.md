@@ -9,32 +9,32 @@ GraphSpace only supports one of the [Cytoscape.js supported](http://js.cytoscape
     "elements":{  
         "nodes":[ // list of graph nodes 
             {
-                data: { // data-attributes specify name-value pairs describing the node."
-                    id: ... // identifier for the node
+                "data": { // data-attributes specify name-value pairs describing the node."
+                    "id": ... // identifier for the node
                 },
-                position: { // can optionally specify position of the node.
-                    x: ...
-                    y: ...
+                "position": { // can optionally specify position of the node.
+                    "x": ...
+                    "y": ...
                 }
             }, 
             .
             .
         ],
-        edges:[ // list of graph edges 
+        "edges":[ // list of graph edges 
             {
-                data: { // data-attributes specify name-value pairs describing the edge.
-                    source: ..., // identifier for the source node
-                    target: ...  // identifier for the target node
+                "data": { // data-attributes specify name-value pairs describing the edge.
+                    "source": ..., // identifier for the source node
+                    "target": ...  // identifier for the target node
                 }
             }, 
             .
             .
         ]
     },
-    data: { // data-attributes specify name-value pairs describing the graph.
-        title: ...,       // title for the graph
-        tags: [..],       // list of tags for the graph,
-        description: ...  // description for the graph e.g., legend
+    "data": { // data-attributes specify name-value pairs describing the graph.
+        "title": ...,       // title for the graph
+        "tags": [..],       // list of tags for the graph,
+        "description": ...  // description for the graph e.g., legend
     }
 }
 ```
