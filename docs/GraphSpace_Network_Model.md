@@ -2,17 +2,17 @@
 
 ## CYJS Format
 
-GraphSpace only supports one of the [Cytoscape.js supported](http://js.cytoscape.org/#getting-started/specifying-basic-options) JSON formats, which is:
+GraphSpace only supports one of the [Cytoscape.js supported](http://js.cytoscape.org/#notation/elements-json) JSON formats, which is:
 
 ```
 {
-    elements:{
-        nodes:[
+    elements:{  
+        nodes:[ // list of graph nodes 
             {
-                data: { 
-                    id: ...
+                data: { // data-attributes specify name-value pairs describing the node.
+                    id: ... // identifier for the node
                 },
-                position: { 
+                position: { // can optionally specify position of the node.
                     x: ...
                     y: ...
                 }
@@ -20,16 +20,21 @@ GraphSpace only supports one of the [Cytoscape.js supported](http://js.cytoscape
             .
             .
         ],
-        edges:[
+        edges:[ // list of graph edges 
             {
-                data: { 
-                    source: ...,
-                    target: ...
+                data: { // data-attributes specify name-value pairs describing the edge.
+                    source: ..., // identifier for the source node
+                    target: ...  // identifier for the target node
                 }
             }, 
             .
             .
         ]
+    },
+    data: { // data-attributes specify name-value pairs describing the graph.
+        title: ...,       // title for the graph
+        tags: [..],       // list of tags for the graph,
+        description: ...  // description for the graph e.g., legend
     }
 }
 ```
