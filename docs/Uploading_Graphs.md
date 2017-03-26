@@ -28,11 +28,11 @@ The name of the graph. GraphSpace allows users to search graphs by their name. I
 
 #### Network File 
 
-The network file containing the graphs structure and data information in [CYJS Format](Supported_File_Formats.html#cyjs-format). It is a required field.
+The network file containing the graphs structure and data information in [CYJS Format](GraphSpace_Network_Model.html#cyjs-format). It is a required field.
 
 #### Style File 
 
-The network file containing the graphs style information in [Stylesheet JSON Format](Supported_File_Formats.html#stylesheet-json-format). It is a optional field. If left empty, GraphSpace will use [default style](#default-graph-style) for displaying the graphs.
+The network file containing the graphs style information in [Stylesheet JSON Format](GraphSpace_Network_Model.html#stylesheet-json-format). It is a optional field. If left empty, GraphSpace will use [default style](#default-graph-style) for displaying the graphs.
 
 ##### Default Graph Style
 
