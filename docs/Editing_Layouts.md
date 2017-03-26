@@ -32,9 +32,9 @@ The Undo and Redo buttons allow the user to undo or repeat all actions, includin
 The `Arrange nodes` section allows a user to arrange all selected nodes into regions of different shapes. The following animation shows the arrangements of selected nodes that users may construct by clicking different buttons in this section.
 
 
-|   |   |
+| ![open circle](_static/gifs/gs-screenshot-user1-wnt-pathway-reconstruction-arrange-nodes-open-circle-with-caption.gif)  |  ![closed circle](_static/gifs/gs-screenshot-user1-wnt-pathway-reconstruction-arrange-nodes-closed-circle-with-caption.gif) |
 |---|---|
-|   |   |
+|  ![open rectangle](_static/gifs/gs-screenshot-user1-wnt-pathway-reconstruction-arrange-nodes-open-rectangle-with-caption.gif) |  ![closed rectangle](_static/gifs/gs-screenshot-user1-wnt-pathway-reconstruction-arrange-nodes-closed-rectangle-with-caption.gif) |
 |   |   |
 
 
