@@ -46,12 +46,12 @@ Any deviation from this format may result in GraphSpace rejecting the graph or p
 
 The elements JSON object contains two types of lists:
 
-1.  List of Node Objects: An array of node objects describing the nodes in the graph.
-2.  List of Edge Objects: An array of edge objects describing the edges in the graph.
+1.  [Nodes](#node-object): An array of [node objects](#node-object) describing the nodes in the graph.
+2.  [Edges](#edge-object): An array of [edge objects](#edge-object) describing the edges in the graph.
 
 ### Graph Data Attributes
 
-The `Graph Data Attributes` object specifies name-value pair describing the graph. The `Graph Data Attributes` are mapped to the Cytoscape network table for a network on import. Cytoscape supports `Graph Data Attributes` for both import and export. Please refer to list of graph data attributes treated specially by GraphSpace to make the best use of GraphSpace's features.
+The `Graph Data Attributes` object specifies name-value pair describing the graph. The `Graph Data Attributes` are mapped to the Cytoscape network table for a network on import. Cytoscape supports `Graph Data Attributes` for both import and export. Please refer to [list of graph data attributes treated specially by GraphSpace](#graph-data-attributes-attributes-treated-specially-by-graphspace) to make the best use of GraphSpace's features.
     
 ### Node Object
 
@@ -71,7 +71,7 @@ The `Node Object` describes a node in the graph. A `Node Object` typically conta
 
 1. **Node Data Attributes**: 
     
-    Node Data Attributes specify name-value pairs describing the node. Cytoscape requires that each Node Object should have an  `id` data attribute which can uniquely identify the element in the graph. The users can define more data-attributes to describe the node. But, if the attributes are not specially treated by GraphSpace, they will be treated as "opaque". This means that GraphSpace will store or transmit the data without any processing. Please refer to list of node data attributes treated specially by GraphSpace to make the best use of GraphSpace's features.
+    Node Data Attributes specify name-value pairs describing the node. Cytoscape requires that each Node Object should have an  `id` data attribute which can uniquely identify the element in the graph. The users can define more data-attributes to describe the node. But, if the attributes are not specially treated by GraphSpace, they will be treated as "opaque". This means that GraphSpace will store or transmit the data without any processing. Please refer to [list of node data attributes treated specially by GraphSpace](#node-data-attributes-attributes-treated-specially-by-graphspace) to make the best use of GraphSpace's features.
     
 2. **Position Attributes**: 
     
@@ -92,7 +92,7 @@ The `Edge Object` describes a node in the graph. An `Edge Object` typically cont
 
 - **Edge Data Attributes**: 
     
-    Edge Data Attributes specify name-value pairs describing the edge. Cytoscape requires that each Edge Object should have  `source` and `target` data attributes which can respectively identify the source and target nodes for the edge in the graph. The users can define more data-attributes to describe the edge. But, if the attributes are not specially treated by GraphSpace, they will be treated as "opaque". This means that GraphSpace will store or transmit the data attributes without any processing. Please refer to list of edge data attributes treated specially by GraphSpace to make the best use of GraphSpace's features.
+    Edge Data Attributes specify name-value pairs describing the edge. Cytoscape requires that each Edge Object should have  `source` and `target` data attributes which can respectively identify the source and target nodes for the edge in the graph. The users can define more data-attributes to describe the edge. But, if the attributes are not specially treated by GraphSpace, they will be treated as "opaque". This means that GraphSpace will store or transmit the data attributes without any processing. Please refer to [list of edge data attributes treated specially by GraphSpace](#edge-data-attributes-attributes-treated-specially-by-graphspace) to make the best use of GraphSpace's features.
     
     
 ### Graph Data Attributes Attributes Treated Specially by GraphSpace
