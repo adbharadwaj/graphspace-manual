@@ -48,10 +48,10 @@ EGFR before highlighting             |  EGFR after highlighting
 <tr> 
    
    <td class="">
-   ![Before Highlighted](_static/images/gs-screenshot-user1-lovastatin-node-before-highlighted-egfr.png)
+      <img src="_static/images/gs-screenshot-user1-lovastatin-node-before-highlighted-egfr.png" alt="Before Highlighted"/>
    </td>               
    <td class="">
-   ![After Highlighted](_static/images/gs-screenshot-user1-lovastatin-node-after-highlighted-egfr.png)
+      <img src="_static/images/gs-screenshot-user1-lovastatin-node-after-highlighted-egfr.png" alt="After Highlighted"/>
    </td> 
 </tr>
 </table>
