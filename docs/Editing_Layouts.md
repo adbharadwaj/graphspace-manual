@@ -32,10 +32,10 @@ The Undo and Redo buttons allow the user to undo or repeat all actions, includin
 The `Arrange nodes` section allows a user to arrange all selected nodes into regions of different shapes. The following animation shows the arrangements of selected nodes that users may construct by clicking different buttons in this section.
 
 
-:-------------------------:|:-------------------------:
-![Before Highlighted](_static/images/gs-screenshot-user1-lovastatin-node-before-highlighted-egfr.png)  |  ![After Highlighted](_static/images/gs-screenshot-user1-lovastatin-node-after-highlighted-egfr.png)
-:-------------------------:|:-------------------------:
-![Before Highlighted](_static/images/gs-screenshot-user1-lovastatin-node-before-highlighted-egfr.png)  |  ![After Highlighted](_static/images/gs-screenshot-user1-lovastatin-node-after-highlighted-egfr.png)
+|   |   |
+|---|---|
+|   |   |
+|   |   |
 
 
 
