@@ -32,19 +32,10 @@ The image below shows an example of the popup shown for a node JAK2.
 GraphSpace highlights nodes/edges if they are selected. If selected, GraphSpace highlights the elements by adding an overlay around the elements in red color.
  
 
-
-EGFR before highlighting             |  EGFR after highlighting 
-:-------------------------:|:-------------------------:
-![Before Highlighted](_static/images/gs-screenshot-user1-lovastatin-node-before-highlighted-egfr.png)  |  ![After Highlighted](_static/images/gs-screenshot-user1-lovastatin-node-after-highlighted-egfr.png)
-
 <br>
 
 <table cellspacing="0">
 <caption>The image below shows an example of node EGFR before and after highlighting.</caption>
-<tr>                          
-   <th>EGFR before highlighting </th> 
-   <th>EGFR after highlighting </th>              
-</tr>
 <tr> 
    
    <td class="">
@@ -53,6 +44,10 @@ EGFR before highlighting             |  EGFR after highlighting
    <td class="">
       <img src="_static/images/gs-screenshot-user1-lovastatin-node-after-highlighted-egfr.png" alt="After Highlighted"/>
    </td> 
+</tr>
+<tr>                          
+   <th>EGFR before highlighting </th> 
+   <th>EGFR after highlighting </th>              
 </tr>
 </table>
 
