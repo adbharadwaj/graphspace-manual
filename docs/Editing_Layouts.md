@@ -10,13 +10,20 @@ The `Start Tour` button walks the user through all the features provided in the 
 
 Unchecking the `Show node labels` checkbox takes a user of GraphSpace to a simplified view of the graph that hides node names.
 
+![toggle node labels](_static/gifs/gs-screenshot-user1-wnt-pathway-reconstruction-toggle-node-labels-with-caption.gif)
+
 ## Select by shape
 
 The `Select by shape` section allows the user to choose nodes in the graph based on nodes `shape` style property. For example, if a user wishes to select all nodes that are rectangles or ellipses, he/she will select both "Ellipse" and "Rectangle" in the tool pallete.
 
+![select nodes by shape](_static/gifs/gs-screenshot-user1-wnt-pathway-reconstruction-select-nodes-by-shape-with-caption.gif)
+
 ## Select by color
 
 The `Select by color` section allows the user to choose nodes in the graph based on nodes `background-color` style property. For example, if a user wishes to select all nodes that are yellow or green, he/she will select both yellow and green.
+
+![select nodes by color](_static/gifs/gs-screenshot-user1-wnt-pathway-reconstruction-select-nodes-by-color-with-caption.gif)
+
 
 ## Unselect All Nodes
 
@@ -25,6 +32,8 @@ A user may click on the `Unselect All Nodes` button to reset all selections.
 ## Undo and Redo
 
 The Undo and Redo buttons allow the user to undo or repeat all actions, including selection, editing and the arrange functions described below.
+
+![undo redo changes](_static/gifs/gs-screenshot-user1-wnt-pathway-reconstruction-arrange-nodes-undo-redo-with-caption.gif)
 
 
 ## Arrange nodes 
