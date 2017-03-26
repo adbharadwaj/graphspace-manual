@@ -17,4 +17,8 @@ GraphSpace 2.0 User Manual
    Terminology
    Uploading_Graphs
    Viewing_Graphs
+   Interacting_with_Graphs
+   Searching_Graphs
+   Sharing_Graphs
+   Editing_Layouts
 
