@@ -40,12 +40,40 @@ The Undo and Redo buttons allow the user to undo or repeat all actions, includin
 
 The `Arrange nodes` section allows a user to arrange all selected nodes into regions of different shapes. The following animation shows the arrangements of selected nodes that users may construct by clicking different buttons in this section.
 
-
-| ![open circle](_static/gifs/gs-screenshot-user1-wnt-pathway-reconstruction-arrange-nodes-open-circle-with-caption.gif)  |  ![closed circle](_static/gifs/gs-screenshot-user1-wnt-pathway-reconstruction-arrange-nodes-closed-circle-with-caption.gif) |
-|---|---|
-|  ![open rectangle](_static/gifs/gs-screenshot-user1-wnt-pathway-reconstruction-arrange-nodes-open-rectangle-with-caption.gif) |  ![closed rectangle](_static/gifs/gs-screenshot-user1-wnt-pathway-reconstruction-arrange-nodes-closed-rectangle-with-caption.gif) |
-|  ![vertical line](_static/gifs/gs-screenshot-user1-wnt-pathway-reconstruction-arrange-nodes-vertical-with-caption.gif) |  ![horizontal line](_static/gifs/gs-screenshot-user1-wnt-pathway-reconstruction-arrange-nodes-horizontal-with-caption.gif)  |
-|  ![pinch](_static/gifs/gs-screenshot-user1-wnt-pathway-reconstruction-arrange-nodes-pinch-with-caption.gif) | ![expand](_static/gifs/gs-screenshot-user1-wnt-pathway-reconstruction-arrange-nodes-expand-with-caption.gif)  |
+<table cellspacing="0">
+<tr> 
+   <td class="">
+      <img src="_static/gifs/gs-screenshot-user1-wnt-pathway-reconstruction-arrange-nodes-open-circle-with-caption.gif" alt="Open Circle"/>
+   </td>               
+   <td class="">
+      <img src="_static/gifs/gs-screenshot-user1-wnt-pathway-reconstruction-arrange-nodes-closed-circle-with-caption.gif" alt="Closed Circle"/>
+   </td> 
+</tr>
+<tr> 
+   <td class="">
+      <img src="_static/gifs/gs-screenshot-user1-wnt-pathway-reconstruction-arrange-nodes-open-rectangle-with-caption.gif" alt="Open Rectangle"/>
+   </td>               
+   <td class="">
+      <img src="_static/gifs/gs-screenshot-user1-wnt-pathway-reconstruction-arrange-nodes-closed-rectangle-with-caption.gif" alt="Closed Rectangle"/>
+   </td> 
+</tr>
+<tr> 
+   <td class="">
+      <img src="_static/gifs/gs-screenshot-user1-wnt-pathway-reconstruction-arrange-nodes-vertical-with-caption.gif" alt="Vertical line"/>
+   </td>               
+   <td class="">
+      <img src="_static/gifs/gs-screenshot-user1-wnt-pathway-reconstruction-arrange-nodes-horizontal-with-caption.gif" alt="Horizontal line"/>
+   </td> 
+</tr>
+<tr> 
+   <td class="">
+      <img src="_static/gifs/gs-screenshot-user1-wnt-pathway-reconstruction-arrange-nodes-pinch-with-caption.gif" alt="Pinch"/>
+   </td>               
+   <td class="">
+      <img src="_static/gifs/gs-screenshot-user1-wnt-pathway-reconstruction-arrange-nodes-expand-with-caption.gif" alt="Expand"/>
+   </td> 
+</tr>
+</table>
 
 
 
