@@ -32,8 +32,6 @@ The image below shows an example of the popup shown for a node JAK2.
 GraphSpace highlights nodes/edges if they are selected. If selected, GraphSpace highlights the elements by adding an overlay around the elements in red color.
  
 
-<br>
-
 <table cellspacing="0">
 <caption>The image below shows an example of node EGFR before and after highlighting.</caption>
 <tr> 
