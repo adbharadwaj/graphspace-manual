@@ -40,7 +40,7 @@ GraphSpace only supports one of the [Cytoscape.js supported](http://js.cytoscape
 
 This [JSON (JavaScript Object Notation)](http://www.json.org/) format is defined by Cytoscape for storing network structure and data information. A Cytoscape (v3.1 or later) user can easily [export their graph](http://manual.cytoscape.org/en/stable/Cytoscape.js_and_Cytoscape.html#export-network-and-table-to-cytoscape-js) in above mentioned JSON format. We call the format as `CYJS format` because the extension of the exportable JSON file from Cytoscape App is `.cyjs`.
 
-Any deviation from this format may result in GraphSpace rejecting the graph or problems in rendering the graph. For the sake of completeness, we have copied the description of several of the node and edge attributes directly from the [CytoscapeJS](http://js.cytoscape.org/) documentation. We thank them for the excellent documentation of their framework.
+**Note:** Any deviation from this format may result in GraphSpace rejecting the graph or problems in rendering the graph. 
 
 ### Elements JSON
 
@@ -188,7 +188,67 @@ The following example is a CYJS formatted JSON for GraphSpace.
 
 Cytoscape and Cytoscape.js are sharing a concept called [Style](http://manual.cytoscape.org/en/stable/Cytoscape.js_and_Cytoscape.html#export-styles-to-cytoscape-js). This is a collection of mappings from data point to network property. Cytoscape can export its Styles into CSS-based Cytoscape.js JSON. 
 
+[Style in Cytoscape.js](http://js.cytoscape.org/#style) follows CSS conventions as closely as possible. In most cases, a property has the same name and behaviour as its corresponding CSS namesake. However, the properties in CSS are not sufficient to specify the style of some parts of the graph. In that case, additional properties are introduced that are unique to Cytoscape.js. For simplicity and ease of use, [specificity rules](http://www.w3.org/TR/css3-selectors/#specificity) are completely ignored in stylesheets by Cytoscape.js. For a given style property for a given element, the last matching selector wins.
+
 A Cytoscape (v3.1 or later) user can export all Styles into one JSON file from **File | Export | Style** and select Cytoscape.js JSON as its format.
 
-**Note:** Cytoscape.js [does not support all of Cytoscape Network Properties](
-http://manual.cytoscape.org/en/stable/Cytoscape.js_and_Cytoscape.html#limitations). Those properties will be ignored or simplified when you export to JSON Style file.
+**Note:** Cytoscape.js [does not support all of Cytoscape Network Properties](http://manual.cytoscape.org/en/stable/Cytoscape.js_and_Cytoscape.html#limitations). Those properties will be ignored or simplified when you export to JSON Style file.
+
+### Style Properties
+
+Please refer to CytoscapeJS documentation for [list of style properties](http://js.cytoscape.org/#style/node-body) supported by Cytoscape.js. We thank them for the excellent documentation of their framework.
+
+
+### Sample JSON
+
+```
+{
+    "style": [
+        {
+            "selector": "node[name='P4314611']",
+            "style": {
+                "border-color": "#888",
+                "text-halign": "center",
+                "text-valign": "center",
+                "border-width": "2px",
+                "height": "50px",
+                "width": "50px",
+                "shape": "ellipse",
+                "background-blacken": "0.1",
+                "background-color": "yellow"
+            }
+        },
+        {
+            "selector": "node[name='P0810711']",
+            "style": {
+                "text-halign": "center",
+                "text-valign": "center",
+                "text-outline-color": "#888",
+                "text-outline-width": "2px",
+                "border-color": "black",
+                "border-width": "5px",
+                "height": "150px",
+                "shape": "ellipse",
+                "color": "black",
+                "border-style": "double",
+                "text-wrap": "wrap",
+                "background-blacken": "0",
+                "width": "150px",
+                "background-color": "red"
+            }
+        },
+        {
+            "selector": "edge[name='P4314611-P0810711']",
+            "style": {
+                "curve-style": "bezier",
+                "line-style": "dotted",
+                "width": "12px",
+                "line-color": "blue",
+                "source-arrow-color": "yellow",
+                "target-arrow-shape": "triangle"
+            }
+        }
+    ]
+}
+```
+
