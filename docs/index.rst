@@ -14,5 +14,5 @@ GraphSpace 2.0 User Manual
    Introduction
    Quick_Tour_of_GraphSpace
    Terminology
-   Upload_Graph
+   Uploading_Graphs
 
