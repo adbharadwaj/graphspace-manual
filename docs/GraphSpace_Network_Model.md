@@ -42,6 +42,28 @@ This [JSON (JavaScript Object Notation)](http://www.json.org/) format is defined
 
 Any deviation from this format may result in GraphSpace rejecting the graph or problems in rendering the graph. For the sake of completeness, we have copied the description of several of the node and edge attributes directly from the [CytoscapeJS](http://js.cytoscape.org/) documentation. We thank them for the excellent documentation of their framework.
 
+### Elements JSON
+
+The elements JSON object contains two types of lists:
+
+1.  List of Node Objects: An array of node objects describing the nodes in the graph.
+2.  List of Edge Objects: An array of node objects describing the edges in the graph.
+
+### Graph Data Attributes
+
+The `Graph Data Attributes` object specifies name-value pair describing the graph. Cytoscape supports `Graph Data Attributes` for both import and export. The `Graph Data Attributes` are mapped to the Cytoscape network table for an network.
+
+Here is the list of all the properties that GraphSpace supports from `Graph Data Attributes`.
+
+- required:
+    `name` – text – Name of the graph. It is later used for searching the graph in GraphSpace.
+    `tags` – list of strings – Used to categorize graphs. See Tags for more information.
+    `description` – text – May be HTML formatted string. May be link to image hosted elsewhere. May simly be a string which contains information such as a legend or significance of the graph.
+- optional:
+    "title" – text – Name that is displayed on top of graph while viewing it.
+
+
+
 ```
 {
     "elements":{  
