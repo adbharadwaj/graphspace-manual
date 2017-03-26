@@ -20,7 +20,9 @@ GraphSpace users can also upload graphs using GraphSpace's REST API. Please refe
 
 As an alternative to the REST API for uploading a graph, we provide a simple web interface for uploading individual graphs. 
 
-<a href="#graph-upload-form"> <img src="_static/images/gs-screenshot-upload-graph-form.png" width="48", alt="Graph Upload Form"></a>
+<a href="#graph-upload-form">
+<img src="./_static/images/gs-screenshot-upload-graph-form.png" width="48", alt="Graph Upload Form" />
+</a>
 
 The upload graph form has three input fields:
 
