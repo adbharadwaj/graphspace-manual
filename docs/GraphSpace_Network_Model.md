@@ -9,7 +9,7 @@ GraphSpace only supports one of the [Cytoscape.js supported](http://js.cytoscape
     "elements":{  
         "nodes":[ // list of graph nodes 
             {
-                "data": { // data-attributes specify name-value pairs describing the node."
+                "data": { // data-attributes specify name-value pairs describing the node.
                     "id": ... // identifier for the node
                 },
                 "position": { // can optionally specify position of the node.
