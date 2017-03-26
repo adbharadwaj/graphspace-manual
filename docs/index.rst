@@ -15,6 +15,7 @@ GraphSpace 2.0 User Manual
    Introduction
    Quick_Tour_of_GraphSpace
    Terminology
+   Supported_File_Formats
    Uploading_Graphs
    Viewing_Graphs
    Interacting_with_Graphs
