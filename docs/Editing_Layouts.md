@@ -62,18 +62,14 @@ When a user launches the node editor, it displays the values of style properties
 </tr>
 <tr> 
    <th class="">
-      Before.
+      Node editor when only one node is selected.
    </th>               
    <th class="">
-      After.
+      Node editor when all nodes are selected.
    </th> 
 </tr>
 </table>
 
-
-
-
-**Note:** When multiple nodes are selected and the user launches the node editor, the values for all properties are set to default. 
 
 ## Show node labels
 
