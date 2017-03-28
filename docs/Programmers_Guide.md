@@ -17,7 +17,7 @@ The scope of what can be done with the GraphSpace REST API is only limited by ou
 
 All URLs referenced in the documentation have the following base:
 
-> http://www.graphspace.org/api/v1
+> http://www.graphspace.org/api/v1/
 
 <!---
 The GraphSpace REST API is served over HTTP. In case you are 
