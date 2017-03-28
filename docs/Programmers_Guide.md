@@ -6,7 +6,7 @@ The GraphSpace REST API provides API endpoints for GraphSpace entities like grap
 
 ## Why use GraphSpace REST API ?
 
-- The GraphSpace REST API makes it easier than ever to use GraphSpace in new and exciting ways, such as creating external applications on top of GraphSpace. For example, 
+The GraphSpace REST API makes it easier than ever to use GraphSpace in new and exciting ways, such as creating external applications on top of GraphSpace. For example, 
     - Create a Cytoscape plugin which will allow users to transfer networks between GraphSpace and Cytoscape. 
     - Users can also automate the way they upload graphs to GraphSpace.
 
