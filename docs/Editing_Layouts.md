@@ -21,7 +21,7 @@ In the following example, the user is editing visual propeties of 'CTNNB1' node.
 
 ### Node Editor
 
-GraphSpace that allows a user to select one or more nodes or edges based on [color](#select-by-color) and/or [shape](#select-by-shape), and to then change their visual properties using an easy-to-use interface. The current interface allows user to change the following properties:
+GraphSpace that allows a user to select one or more nodes based on [color](#select-by-color) and/or [shape](#select-by-shape), and to then change their visual properties using an easy-to-use interface. The current interface allows user to change the following properties:
 
 1. **Color**: The background color of the node.
 2. **Shape**: The shape of the node's body. GraphSpace currently supports following shapes - rectangle, roundrectangle, ellipse, triangle, pentagon, hexagon, heptagon, octagon, star, diamond, vee, or rhomboid.
@@ -71,6 +71,52 @@ When a user launches the node editor, it displays the values of style properties
    </th> 
 </tr>
 </table>
+
+
+## Edit selected edges
+
+A [GraphSpace](http://www.graphspace.org) user can change visual properties of an edge by following the given steps:
+
+1. Select one or more edges either by using the [gestures](http://js.cytoscape.org/#notation/gestures) supported by Cytoscape.js.
+2. Click on the `Edit selected edges` button to launch the [edge editor](#edge-editor).
+3. Change the visual properties of the selected edges.
+4. Click on `OK` if you want to save the changes else click on `Cancel` button to cancel the changes.
+
+In the following example, the user is editing visual propeties of an edge between `LRP6` and `DAB2`.
+
+![editing edges](_static/gifs/gs-screenshot-user1-wnt-pathway-reconstruction-edge-editor-with-caption.gif)
+
+### Edge Editor
+
+GraphSpace that allows a user to select one or more edges based on [color](#select-by-color) and/or [shape](#select-by-shape), and to then change their visual/style properties using an easy-to-use interface. The current interface allows user to change the following properties:
+
+1. **Line Color**: The colour of the edge’s line.
+2. **Line Style**: The style of the edge’s line. GraphSpace currently supports following line styles - solid, dotted, or dashed.
+3. **Width***: The width of an edge’s line in pixels.
+
+The following image shows the visual properties of an edge before and after the editing using the edge editor. In this example, user has made the following changes: (i) line color from grey to red (ii) line style from solid to dashed (iii) width  from 3px to 10px.
+
+<table cellspacing="0">
+<tr> 
+   <td class="">
+      <img src="_static/images/gs-screenshot-user1-edge-editor-before-edit.png" alt="Before editing"/>
+   </td>               
+   <td class="">
+      <img src="_static/images/gs-screenshot-user1-edge-editor-after-edit.png" alt="After editing"/>
+   </td> 
+</tr>
+<tr> 
+   <th class="">
+      Before.
+   </th>               
+   <th class="">
+      After.
+   </th> 
+</tr>
+</table>
+
+When a user launches the edge editor, it displays the current style values of the selected node if only one edge is selected. Whereas if more than one edge is selected, the node editor will display the values of style properties as blank. 
+
 
 
 ## Show node labels
