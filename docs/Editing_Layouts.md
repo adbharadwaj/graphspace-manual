@@ -17,6 +17,8 @@ A [GraphSpace](http://www.graphspace.org) user can change visual properties of a
 
 In the following example, the user is editing visual propeties of 'CTNNB1' node.
 
+![editing nodes](_static/gifs/gs-screenshot-user1-wnt-pathway-reconstruction-node-editor-with-caption.gif)
+
 ### Node Editor
 
 GraphSpace that allows a user to select one or more nodes or edges based on [color](#select-by-color) and/or [shape](#select-by-shape), and to then change their visual properties using an easy-to-use interface. The current interface allows user to change the following properties:
