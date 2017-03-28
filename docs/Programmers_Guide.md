@@ -13,6 +13,15 @@ The GraphSpace REST API makes it easier than ever to use GraphSpace in new and e
 
 The scope of what can be done with the GraphSpace REST API is only limited by our imagination. Overall, if a user want a structured, extensible, and simple way to get data in and out of GraphSpace over HTTP, they should probably use the GraphSpace REST API.
 
+## Base URL
+
+All URLs referenced in the documentation have the following base:
+
+> http://www.graphspace.org/api/v1
+
+The GraphSpace REST API is served over HTTP. We are 
+
+
 ## API Reference
 
 <iframe src="http://35.163.136.54/static/api.html" style="height: 100vh;width: 100%;"></iframe>
