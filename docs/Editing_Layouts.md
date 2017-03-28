@@ -6,6 +6,48 @@ GraphSpace provides powerful tools for the selection, movement, and organization
 
 The `Start Tour` button walks the user through all the features provided in the tool pallette. The Exit layout editor button gives a user the option to save the current layout and/or go back to the original view of the current graph. In the layout editor, the user may wield the tool pallette on the right hand side to quickly re-arrange the structure of the graph. 
 
+## Edit selected nodes
+
+A [GraphSpace](http://www.graphspace.org) user can change visual properties of a node by following the given steps:
+
+1. Select one or more nodes either by [color](#select-by-color) or [shape](#select-by-shape) or using the [gestures](http://js.cytoscape.org/#notation/gestures) supported by Cytoscape.js.
+2. Click on the `Edit selected nodes` button to launch the [node editor](#node-editor).
+3. Change the visual properties of the selected nodes.
+4. Click on `OK` if you want to save the changes else click on `Cancel` button to cancel the changes.
+
+In the following example, the user is editing visual propeties of 'CTNNB1' node.
+
+### Node Editor
+
+GraphSpace that allows a user to select one or more nodes or edges based on [color](#select-by-color) and/or [shape](#select-by-shape), and to then change their visual properties using an easy-to-use interface. The current interface allows user to change the following properties:
+
+1. **Color**: The background color of the node.
+2. **Shape**: The shape of the node's body. GraphSpace currently supports following shapes - rectangle, roundrectangle, ellipse, triangle, pentagon, hexagon, heptagon, octagon, star, diamond, vee, or rhomboid.
+3. **Width***: The width of the node’s body in pixels.
+4. **Height***: The height of the node’s body in pixels.
+5. **Label**: The label inside of node's body. In addition to specifying the value of a property outright, the developer may also use a [mapper to dynamically specify the property value](http://js.cytoscape.org/#style/mappers). For example, data(k) would map a property to the value in an element’s `k` data-attribute. This feature can used for visualizing node annotations in the layouts.
+
+The following image shows the visual properties of a node before and after the editing using the node editor.
+
+<table cellspacing="0">
+<tr> 
+   <td class="">
+      <img src="_static/gifs/gs-screenshot-user1-node-editor-before edit.png" alt="Before editing"/>
+   </td>               
+   <td class="">
+      <img src="_static/gifs/gs-screenshot-user1-node-editor-after edit.png" alt="After editing"/>
+   </td> 
+</tr>
+<tr> 
+   <th class="">
+      Before.
+   </th>               
+   <th class="">
+      After.
+   </th> 
+</tr>
+</table>
+
 ## Show node labels
 
 Unchecking the `Show node labels` checkbox takes a user of GraphSpace to a simplified view of the graph that hides node names.
