@@ -25,8 +25,8 @@ GraphSpace that allows a user to select one or more nodes based on [color](#sele
 
 1. **Color**: The background color of the node.
 2. **Shape**: The shape of the node's body. GraphSpace currently supports following shapes - rectangle, roundrectangle, ellipse, triangle, pentagon, hexagon, heptagon, octagon, star, diamond, vee, or rhomboid.
-3. **Width***: The width of the node’s body in pixels.
-4. **Height***: The height of the node’s body in pixels.
+3. **Width**: The width of the node’s body in pixels.
+4. **Height**: The height of the node’s body in pixels.
 5. **Label**: The label inside of node's body. In addition to specifying the value of a property outright, the developer may also use a [mapper to dynamically specify the property value](http://js.cytoscape.org/#style/mappers). For example, data(k) would map a property to the value in an element’s `k` data-attribute. This feature can used for visualizing node annotations in the layouts.
 
 The following image shows the visual properties of a node before and after the editing using the node editor. In this example, user has made the following changes: (i) background color from green to pink (ii) shape from rectangle to ellipse (iii) width and height from 45px to 100px (iv) label from 'CTNNB1' to 'New Label'.
@@ -42,10 +42,10 @@ The following image shows the visual properties of a node before and after the e
 </tr>
 <tr> 
    <th class="">
-      Before.
+      Before editing
    </th>               
    <th class="">
-      After.
+      After editing
    </th> 
 </tr>
 </table>
@@ -92,7 +92,7 @@ GraphSpace that allows a user to select one or more edges based on [color](#sele
 
 1. **Line Color**: The colour of the edge’s line.
 2. **Line Style**: The style of the edge’s line. GraphSpace currently supports following line styles - solid, dotted, or dashed.
-3. **Width***: The width of an edge’s line in pixels.
+3. **Width**: The width of an edge’s line in pixels.
 
 The following image shows the visual properties of an edge before and after the editing using the edge editor. In this example, user has made the following changes: (i) line color from grey to red (ii) line style from solid to dashed (iii) width  from 3px to 10px.
 
@@ -107,10 +107,10 @@ The following image shows the visual properties of an edge before and after the 
 </tr>
 <tr> 
    <th class="">
-      Before.
+      Before editing
    </th>               
    <th class="">
-      After.
+      After editing
    </th> 
 </tr>
 </table>
