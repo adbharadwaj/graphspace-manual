@@ -48,6 +48,13 @@ The following image shows the visual properties of a node before and after the e
 </tr>
 </table>
 
+When a user launches the node editor, it displays the values of style properties of the selected node if only one node is selected. Whereas if more than one node is selected, the node editor will display the values of style properties as blank. The following image shows an example of node editor when i) only one node is selected ii) more than one node is selected.
+
+
+
+
+**Note:** When multiple nodes are selected and the user launches the node editor, the values for all properties are set to default. 
+
 ## Show node labels
 
 Unchecking the `Show node labels` checkbox takes a user of GraphSpace to a simplified view of the graph that hides node names.
