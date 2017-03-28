@@ -19,7 +19,10 @@ All URLs referenced in the documentation have the following base:
 
 > http://www.graphspace.org/api/v1
 
-The GraphSpace REST API is served over HTTP. We are 
+<!---
+The GraphSpace REST API is served over HTTP. In case you are 
+-->
+
 
 
 ## API Reference
