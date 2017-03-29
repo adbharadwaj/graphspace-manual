@@ -34,7 +34,7 @@ The GraphSpace REST API is served over HTTP. In case you are
 <iframe src="http://35.163.136.54/static/api.html" style="height: 100vh;width: 100%;"></iframe>
 
 
-## graphspace-python
+## [graphspace-python](http://graphspace-python.readthedocs.io/)
 
 A Python library for the GraphSpace REST API. It simplifies the process of authentication, request construction, and response parsing for Python developers using the GraphSpace API. This clientlib is built and tested on Python 2.7.
 
