@@ -24,6 +24,6 @@ GraphSpace 2.0 User Manual
    Editing_Layouts
    Organizing_Graphs_Using_Tags
    Programmers_Guide
-   GraphSpace Python Client_.
+   `GraphSpace Python Client`_
    
-.. _GraphSpace Python Client: http://manual.graphspace.org/projects/graphspace-python/en/latest/
+.. _`GraphSpace Python Client`: http://manual.graphspace.org/projects/graphspace-python/en/latest/
