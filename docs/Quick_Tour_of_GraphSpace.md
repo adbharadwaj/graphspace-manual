@@ -1,4 +1,4 @@
-# Quick Tour of Cytoscape
+# Quick Tour of GraphSpace
 
 ## Welcome Screen
 
