@@ -36,7 +36,7 @@ The GraphSpace REST API is served over HTTP. In case you are
 
 ## GraphSpace Python Client
 
-GraphSpace Python Client is library for the GraphSpace REST API. It simplifies the process of authentication, request construction, and response parsing for Python developers using the GraphSpace API. This clientlib is built and tested on Python 2.7.
+GraphSpace Python Client is library for the GraphSpace REST API. It simplifies the process of authentication, request construction, and response parsing for Python developers using the GraphSpace API. This client library is built and tested on Python 2.7.
 
 ### Installation
 
