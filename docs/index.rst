@@ -26,4 +26,4 @@ GraphSpace 2.0 User Manual
    Programmers_Guide
    `GraphSpace Python Client`_
    
-.. _`GraphSpace Python Client`: http://manual.graphspace.org/projects/graphspace-python/en/latest/
+.. _GraphSpace Python Client: http://manual.graphspace.org/projects/graphspace-python/en/latest/
