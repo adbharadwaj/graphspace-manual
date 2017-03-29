@@ -34,16 +34,16 @@ The GraphSpace REST API is served over HTTP. In case you are
 <iframe src="http://35.163.136.54/static/api.html" style="height: 100vh;width: 100%;"></iframe>
 
 
-## GraphSpace Python Client
+## graphspace-python
 
-GraphSpace Python Client is library for the GraphSpace REST API. It simplifies the process of authentication, request construction, and response parsing for Python developers using the GraphSpace API. This client library is built and tested on Python 2.7.
+A Python library for the GraphSpace REST API. It simplifies the process of authentication, request construction, and response parsing for Python developers using the GraphSpace API. This clientlib is built and tested on Python 2.7.
 
 ### Installation
 
-Install graphspace_api from PyPI using:
+Install graphspace_python from PyPI using:
 
 ```
-pip install graphspace_api
+    pip install graphspace_python
 ```
 
 ### Usage
@@ -52,7 +52,10 @@ The library uses a client object to query against the API.
 
 #### Add a Graph to GraphSpace
 
-```python
+```
+from graphspace_python.graphs.classes.gsgraph import GSGraph
+from graphspace_python.api.client import GraphSpace
+
 graphspace = GraphSpace('user1@example.com', 'user1')
 
 # Users can change the host for the API ENDPOINTS.
@@ -77,7 +80,10 @@ graphspace.post_graph(graph1)
 
 #### Get a Graph from GraphSpace
 
-```python
+```
+from graphspace_python.graphs.classes.gsgraph import GSGraph
+from graphspace_python.api.client import GraphSpace
+
 graphspace = GraphSpace('user1@example.com', 'user1')
 
 # Users can change the host for the API ENDPOINTS.
@@ -88,7 +94,10 @@ graphspace.get_graph('My Sample Graph')
 
 #### Make a graph publicly viewable on GraphSpace
 
-```python
+```
+from graphspace_python.graphs.classes.gsgraph import GSGraph
+from graphspace_python.api.client import GraphSpace
+
 graphspace = GraphSpace('user1@example.com', 'user1')
 
 # Users can change the host for the API ENDPOINTS.
@@ -99,7 +108,10 @@ graphspace.make_graph_public('My Sample Graph')
 
 #### Make a graph privately viewable on GraphSpace
 
-```python
+```
+from graphspace_python.graphs.classes.gsgraph import GSGraph
+from graphspace_python.api.client import GraphSpace
+
 graphspace = GraphSpace('user1@example.com', 'user1')
 
 # Users can change the host for the API ENDPOINTS.
@@ -110,7 +122,10 @@ graphspace.make_graph_private('My Sample Graph')
 
 #### Update a graph on GraphSpace
 
-```python
+```
+from graphspace_python.graphs.classes.gsgraph import GSGraph
+from graphspace_python.api.client import GraphSpace
+
 graphspace = GraphSpace('user1@example.com', 'user1')
 
 # Users can change the host for the API ENDPOINTS.
@@ -133,7 +148,10 @@ graphspace.update_graph('My Sample Graph', graph=graph1, is_public=1)
 
 #### Delete a Graph from GraphSpace
 
-```python
+```
+from graphspace_python.graphs.classes.gsgraph import GSGraph
+from graphspace_python.api.client import GraphSpace
+
 graphspace = GraphSpace('user1@example.com', 'user1')
 
 # Users can change the host for the API ENDPOINTS.
