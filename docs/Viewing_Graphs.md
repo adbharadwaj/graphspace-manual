@@ -17,7 +17,7 @@ The Graph Visualization Tab has two sections:
 
 In this example, the graph has 325 edges and 132 nodes.
 
-![Graph Visualization Tab](_static/images/gs-screenshot-user1-lovastatin-graph-visualization-tab.png)
+![Graph Visualization Tab](_static/images/graph-page/gs-screenshot-user1-lovastatin-graph-visualization-tab.png)
 
 ### Node and Edge Popups
 
@@ -25,7 +25,7 @@ Each node or edge in a graph may have information embedded in it via the popup a
 
 The image below shows an example of the popup shown for a node JAK2. 
 
-![Graph Visualization Tab](_static/images/gs-screenshot-user1-lovastatin-node-popup.png)
+![Graph Visualization Tab](_static/images/graph-page/gs-screenshot-user1-lovastatin-node-popup.png)
 
 ### Highlighted Graph Elements
 
@@ -37,10 +37,10 @@ GraphSpace highlights nodes/edges if they are selected. If selected, GraphSpace 
 <tr> 
    
    <td class="">
-      <img src="_static/images/gs-screenshot-user1-lovastatin-node-before-highlighted-egfr.png" alt="Before Highlighted"/>
+      <img src="_static/images/graph-page/gs-screenshot-user1-lovastatin-node-before-highlighted-egfr.png" alt="Before Highlighted"/>
    </td>               
    <td class="">
-      <img src="_static/images/gs-screenshot-user1-lovastatin-node-after-highlighted-egfr.png" alt="After Highlighted"/>
+      <img src="_static/images/graph-page/gs-screenshot-user1-lovastatin-node-after-highlighted-egfr.png" alt="After Highlighted"/>
    </td> 
 </tr>
 <tr>                          
@@ -57,7 +57,7 @@ As its name suggests, the `Graph Information` tab displays information about the
 
 The image below shows an example of Graph Information Tab when user clicks on the `Graph Information` tab link:
 
-![Graph Information Tab Image](_static/images/gs-screenshot-user1-lovastatin-graph-information-tab.png)
+![Graph Information Tab Image](_static/images/graph-page/gs-screenshot-user1-lovastatin-graph-information-tab.png)
 
 ## Edges Tab
 
@@ -69,7 +69,7 @@ As its name suggests, the `Edges` tab displays information about the edges in a 
 
 The image below shows an example of Edges Tab when user clicks on the `Edges` tab link:
 
-![Graph Edges Tab Image](_static/images/gs-screenshot-user1-lovastatin-graph-edges-tab.png)
+![Graph Edges Tab Image](_static/images/graph-page/gs-screenshot-user1-lovastatin-graph-edges-tab.png)
 
 ## Nodes Tab
 
@@ -80,7 +80,7 @@ As its name suggests, the `Nodes` tab displays information about the nodes in a 
 
 The image below shows an example of Nodes Tab when user clicks on the `Nodes` tab link:
 
-![Graph Nodes Tab Image](_static/images/gs-screenshot-user1-lovastatin-graph-nodes-tab.png)
+![Graph Nodes Tab Image](_static/images/graph-page/gs-screenshot-user1-lovastatin-graph-nodes-tab.png)
 
 ## Layouts Tab
 
@@ -93,7 +93,7 @@ The icons next to each layout name allow the user to (i) change its name, (ii) s
 
 The image below shows an example of Layouts Tab when user clicks on the `Layouts` tab link. In this example, the user has created 1 private layout and has access to four shared layouts.
 
-![Graph Layouts Tab Image](_static/images/gs-screenshot-user1-lovastatin-graph-layouts-tab.png)
+![Graph Layouts Tab Image](_static/images/graph-page/gs-screenshot-user1-lovastatin-graph-layouts-tab.png)
 
 
 
