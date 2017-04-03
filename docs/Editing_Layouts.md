@@ -99,10 +99,10 @@ The following image shows the visual properties of an edge before and after the 
 <table cellspacing="0">
 <tr> 
    <td class="">
-      <img src="_static/images/gs-screenshot-user1-edge-editor-before-edit.png" alt="Before editing"/>
+      <img src="_static/images/layout-editor/edge-editor/gs-screenshot-user1-edge-editor-before-edit.png" alt="Before editing"/>
    </td>               
    <td class="">
-      <img src="_static/images/gs-screenshot-user1-edge-editor-after-edit.png" alt="After editing"/>
+      <img src="_static/images/layout-editor/edge-editor/gs-screenshot-user1-edge-editor-after-edit.png" alt="After editing"/>
    </td> 
 </tr>
 <tr> 
