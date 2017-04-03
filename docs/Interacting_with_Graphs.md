@@ -12,7 +12,7 @@ GraphSpace is designed to provide access to following commonly used features:
 
 This feature provides a search bar that allows the user to find nodes/edges that match search terms. See [Search Query Semantics](Searching_Graphs.html#query-semantics) section for more information on query semantics. The matching nodes or edges are [highlighted](Viewing_Graphs.html#highlighted-graph-elements) automatically as you type in the query in the search bar.
 
-![Search Bar](_static/images/gs-screenshot-graph-page-search-bar.png)
+![Search Bar](_static/images/graph-page/gs-screenshot-graph-page-search-bar.png)
 
 
 ## Export 
@@ -26,7 +26,7 @@ This feature provides a search bar that allows the user to find nodes/edges that
 
 GraphSpace does not support any other export formats since it relies on [Cytoscape.js](http://js.cytoscape.org) for this functionality, which implements only export to PNG, JPG and JSON format. 
 
-![Search Bar](_static/images/gs-screenshot-graph-page-export-menu.png)
+![Search Bar](_static/images/graph-page/gs-screenshot-graph-page-export-menu.png)
 
 ## Change Layout
 
@@ -38,7 +38,7 @@ GraphSpace](http://www.graphspace.org) allows users to change layout using the f
     - **Select Saved Layout** - List of layout saved by the user using GraphSpace. The user has created them in earlier sessions by manually modifying the positions of nodes and edges created by some automatic layout algorithm and saving the layout.
 3. Click on a layout option to change the current layout.
  
-![Change layout screenshot](_static/images/gs-screenshot-user1-lovastatin-change-layout-panel.png)
+![Change layout screenshot](_static/images/graph-page/gs-screenshot-user1-lovastatin-change-layout-panel.png)
 
 ## Filter nodes and edges
 
@@ -48,7 +48,7 @@ The images below shows a user stepping through a graph using this slider. For ex
 
 Current Rank is 3            |  Current Rank is 4
 :-------------------------:|:-------------------------:
-![Filter nodes and edges before](_static/images/gs-screenshot-graph-page-filter-nodes-edges-k-equal-3.png)  |  ![Filter nodes and edges after](_static/images/gs-screenshot-graph-page-filter-nodes-edges-k-equal-4.png)
+![Filter nodes and edges before](_static/images/filter-nodes-edges/gs-screenshot-graph-page-filter-nodes-edges-k-equal-3.png)  |  ![Filter nodes and edges after](_static/images/filter-nodes-edges/gs-screenshot-graph-page-filter-nodes-edges-k-equal-4.png)
 
 ## Default Layout
 
