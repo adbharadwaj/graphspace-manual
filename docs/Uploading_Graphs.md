@@ -18,7 +18,7 @@ If a user has an account and is logged in, [this interface](#upload-graph-form) 
 
 ### Upload Graph Form
 
-![Upload Graph](_static/images/gs-screenshot-upload-graph-form.png)
+![Upload Graph](_static/images/upload-page/gs-screenshot-upload-graph-form.png)
 
 The upload graph form has three input fields:
 
