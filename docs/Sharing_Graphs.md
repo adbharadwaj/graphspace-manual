@@ -7,7 +7,7 @@ There are two ways to share a specific graph owned by the user: the REST API and
 
 This image shows the sharing panel displayed when a user clicks on the `Share` button on the Graph Page. In the following example, the graph is only shared with a group name 'Test Group' created by user1@example.com. The user can click on the Share button next to `Share with public` text to share the graph with everyone.
 
-![Share layout panel](_static/images/gs-screenshot-graph-page-share-panel.png)
+![Share layout panel](_static/images/graph-page/gs-screenshot-graph-page-share-panel.png)
 
 
 
