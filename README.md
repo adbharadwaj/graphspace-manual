@@ -26,3 +26,4 @@ The "latest" manual is automatically rebuilt by ReadTheDocs when the GitHub repo
 The rebuild can be observed by logging into the ReadTheDocs account (see me for credentials) and choosing the "graphspace" project. To see the build log, click on the grey Builds button. You can watch the progress of the build by manually refreshing your browser window until the build status shows either Passed or Failed - a build can take anywhere from 3 minutes to 10 minutes, depending on how busy the build server is. When the build is complete, if the status shows Passed, you can view the build result by clicking on the green View Docs button.
 
 The document will also be available via http://manual.graphspace.org/en/latest.
+
