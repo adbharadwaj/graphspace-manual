@@ -59,5 +59,5 @@ This image shows an example where the user is searching for proteins with name `
 - **EGFR (UniprotKB: P00533)** - Any protein whose name/label contains P00533 as a substring.
 - **Egfr (UniprotKB: Q01279)** - Any protein whose name/label contains Q01279 as a substring.
 
-![Advanced Search Image](_static/images/gs-screenshot-graphs-list-page-advanced-search-node-egfr.png)
+![Advanced Search Image](_static/images/graphs-page/gs-screenshot-graphs-list-page-advanced-search-node-egfr.png)
 
