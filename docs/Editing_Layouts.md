@@ -34,10 +34,10 @@ The following image shows the visual properties of a node before and after the e
 <table cellspacing="0">
 <tr> 
    <td class="">
-      <img src="_static/images/gs-screenshot-user1-node-editor-before edit.png" alt="Before editing"/>
+      <img src="_static/images/layout-editor/node-editor/gs-screenshot-user1-node-editor-before edit.png" alt="Before editing"/>
    </td>               
    <td class="">
-      <img src="_static/images/gs-screenshot-user1-node-editor-after edit.png" alt="After editing"/>
+      <img src="_static/images/layout-editor/node-editor/gs-screenshot-user1-node-editor-after edit.png" alt="After editing"/>
    </td> 
 </tr>
 <tr> 
@@ -56,10 +56,10 @@ When a user launches the node editor, it displays the values of style properties
 <table cellspacing="0">
 <tr> 
    <td class="">
-      <img src="_static/images/gs-screenshot-user1-node-editor-one-node-selected.png" alt="One node selected"/>
+      <img src="_static/images/layout-editor/node-editor/gs-screenshot-user1-node-editor-one-node-selected.png" alt="One node selected"/>
    </td>               
    <td class="">
-      <img src="_static/images/gs-screenshot-user1-node-editor-all-nodes-selected.png" alt="All nodes selected"/>
+      <img src="_static/images/layout-editor/node-editor/gs-screenshot-user1-node-editor-all-nodes-selected.png" alt="All nodes selected"/>
    </td> 
 </tr>
 <tr> 
