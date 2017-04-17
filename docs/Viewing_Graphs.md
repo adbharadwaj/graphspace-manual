@@ -53,7 +53,7 @@ GraphSpace highlights nodes/edges if they are selected. If selected, GraphSpace 
 
 ## Graph Information Tab
 
-As its name suggests, the `Graph Information` tab displays information about the entire graph, e.g., a legend of node and edge shapes and colors. The user can go to `Graph Information` tab by clicking on the `Graph Information` tab link above the graph. The information that appears in `Graph Information` tab must be included in the JSON for the graph uploaded by the user using the RESTful API.
+As its name suggests, the `Graph Information` tab displays information about the entire graph, e.g., a legend of node and edge shapes and colors. The ``description`` attribute in the JSON for the network specifies this content. The user can go to `Graph Information` tab by clicking on the `Graph Information` tab link above the graph. 
 
 The image below shows an example of Graph Information Tab when user clicks on the `Graph Information` tab link:
 
@@ -67,7 +67,7 @@ As its name suggests, the `Edges` tab displays information about the edges in a 
 2. **Tail Node** - Label of the tail node.
 3. **Head Node** - Label of the head node.
 
-The image below shows an example of Edges Tab when user clicks on the `Edges` tab link:
+The image below shows an example of Edges Tab when a user clicks on the `Edges` tab link:
 
 ![Graph Edges Tab Image](_static/images/graph-page/gs-screenshot-user1-lovastatin-graph-edges-tab.png)
 
