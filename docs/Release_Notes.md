@@ -1,6 +1,6 @@
 # Release Notes
 
-## [GraphSpace 2.0]()
+## [GraphSpace 2.0](https://github.com/Murali-group/GraphSpace/releases/tag/v2.0)
 
 ### Highlights
 
@@ -21,6 +21,12 @@ variety of shapes.
 
 
 
-## [GraphSpace 1.1](https://github.com/Murali-group/GraphSpace/releases/tag/v1.0)
+## [GraphSpace 1.1](https://github.com/Murali-group/GraphSpace/releases/tag/v1.1)
 
-## [GraphSpace 1.0]()
+### Bug Fixes
+- Fixed bug reported when trying to use the Forgot Password functionality.
+
+## [GraphSpace 1.0](https://github.com/Murali-group/GraphSpace/releases/tag/v1.0)
+
+### Highlights
+- This is the first public release of GraphSpace.
