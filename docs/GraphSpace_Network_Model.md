@@ -1,8 +1,16 @@
 # GraphSpace Network Model
 
+GraphSpace networks follow a [Cytoscape.js supported](http://js.cytoscape.org/#notation/elements-json) JSON format that separates the specification of the network structure (nodes and edges) from the description of the visual styles of the nodes and edges (e.g., colors, widths, shapes, labels). 
+
+1. [CYJS Format](#cyjs-format) - Format is defined by Cytoscape.js for storing network structure and data information.
+2. [Stylesheet JSON format](#stylesheet-json-format) - Format is defined by Cytoscape.js for storing the visual styles of the nodes and edges (e.g., colors, widths, shapes, labels) in CSS-based JSON format.
+
+The same format can be exported from or imported to Cytoscape (version 3.1.1 or greater). 
+
 ## CYJS Format
 
 GraphSpace only supports one of the [Cytoscape.js supported](http://js.cytoscape.org/#notation/elements-json) JSON formats, which is:
+
 ```
 {
     "elements":{  // Elements JSON
