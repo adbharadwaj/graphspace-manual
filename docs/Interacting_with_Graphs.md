@@ -1,6 +1,6 @@
 # Interacting with Graphs
 
-GraphSpace is designed to provide access to following commonly used features:
+In this section, we examine different ways to interact with an individual network on its page. The information that appears in following examples must be included in the JSON files that are uploaded by the network owner, as described in the [Network Model](/GraphSpace_Network_Model.html) section. An individual network page is designed to access features like:
 
 - [Searching within a graph](#search)
 - [Exporting a graph](#export)
@@ -10,7 +10,7 @@ GraphSpace is designed to provide access to following commonly used features:
 
 ## Search 
 
-This feature provides a search bar that allows the user to find nodes/edges that match search terms. See [Search Query Semantics](Searching_Graphs.html#query-semantics) section for more information on query semantics. The matching nodes or edges are [highlighted](Viewing_Graphs.html#highlighted-graph-elements) automatically as you type in the query in the search bar.
+This feature provides a search bar that allows the user to find nodes/edges that match the search terms. See [Search Query Semantics](Searching_Graphs.html#query-semantics) section for more information on query semantics. The matching nodes or edges are [highlighted](Viewing_Graphs.html#highlighted-graph-elements) automatically as you type in the query in the search bar.
 
 ![Search Bar](_static/images/graph-page/gs-screenshot-graph-page-search-bar.png)
 
@@ -30,25 +30,27 @@ GraphSpace does not support any other export formats since it relies on [Cytosca
 
 ## Change Layout
 
-GraphSpace](http://www.graphspace.org) allows users to change layout using the following steps:
+Layouts provide a powerful means to organize nodes within a network. [GraphSpace](http://www.graphspace.org) allows users to change layout using the following steps:
 
 1. Click on the `Change Layout` button to view available layout options.
 2. The `Change Layout` panel provides two alternatives:
-    - **Select Layout Algorithm** - List of layout algorithms supported by GraphSpace through its use of [Cytoscape.js](http://js.cytoscape.org).
-    - **Select Saved Layout** - List of layout saved by the user using GraphSpace. The user has created them in earlier sessions by manually modifying the positions of nodes and edges created by some automatic layout algorithm and saving the layout.
+    - **Select Layout Algorithm** - This section lists all the automatic network layout
+algorithms supported by GraphSpace through its use of [Cytoscape.js](http://js.cytoscape.org).
+    - **Select Saved Layout** - This section lists layouts saved by the user. The user has created them in earlier sessions by using the layout editor or manually modifying the positions of nodes and edges created by some automatic layout algorithm and saving the layout.
 3. Click on a layout option to change the current layout.
  
-![Change layout screenshot](_static/images/graph-page/gs-screenshot-user1-lovastatin-change-layout-panel.png)
+ In the following example, the user selects to view the layout titled "manual-top-to-bottom".
+    
+![Change Layout](_static/gifs/gs-screenshot-user1-change-layout-with-caption.gif)
+
+<!--![Change layout screenshot](_static/images/graph-page/gs-screenshot-user1-lovastatin-change-layout-panel.png) -->
 
 ## Filter nodes and edges
 
 Graph algorithms may output networks where nodes and edges can be ranked, e.g., by path index or by weight/score. GraphSpace allows each node and edge to have an integer-valued data-attribute called `k` that specifies the rank of the node or the edge. For any network that contains this attribute (and only for such networks), GraphSpace displays the "Filter nodes and edges" panel with a `Current rank` slider. Changing the value in the `Current rank` slider hides all nodes and edges whose k values are less than or equal to the value in the slider. The possible values in this slider range from 1 to the maximum value of `k` in the graph. This interface element allows the user to unveil the network gradually in real time and gain intuition about how the network expands or contracts as this threshold changes.
 
-The images below shows a user stepping through a graph using this slider. For example in the following graph, changing the value from 3 to 4 revealed the green node and the edges connecting it to the blue node and yellow node.
+The following example shows a user stepping through a graph using this slider. 
 
-Current Rank is 3            |  Current Rank is 4
-:-------------------------:|:-------------------------:
-![Filter nodes and edges before](_static/images/filter-nodes-edges/gs-screenshot-graph-page-filter-nodes-edges-k-equal-3.png)  |  ![Filter nodes and edges after](_static/images/filter-nodes-edges/gs-screenshot-graph-page-filter-nodes-edges-k-equal-4.png)
 
 ## Default Layout
 
