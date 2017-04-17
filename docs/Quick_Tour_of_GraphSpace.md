@@ -4,10 +4,23 @@
 
 The [welcome page](http://graphspace.org) greets a user when the user visits GraphSpace. The Welcome Screen is designed to access commonly used features of GraphSpace like:
 
-- Log In
 - Create Account
+- Log In
 - Upload a graph
 - List of uploaded graphs.
+
+### Create Account
+
+The user can create an account on [GraphSpace](http://www.graphspace.org) by following the given steps:
+
+1. Click on the `Create Account` button on the top navigation bar. This will trigger a create account window/pop-up to be displayed.
+2. Enter the your email address. 
+3. Enter a password for your account.
+4. Verify your password by entering the same password again.
+5. Click on `Submit` button to create the account with the given email address and password.
+
+![Create Account](_static/gifs/gs-screenshot-user5-creating-account-with-caption.gif)
+
 
 ### Log In
 
@@ -21,17 +34,7 @@ The user can log-in to [GraphSpace](http://www.graphspace.org) by following the 
 
 ![Log In](_static/gifs/gs-screenshot-user1-logging-in-with-caption.gif)
 
-### Create Account
-
-The user can create an account on [GraphSpace](http://www.graphspace.org) by following the given steps:
-
-1. Click on the `Create Account` button on the top navigation bar. This will trigger a create account window/pop-up to be displayed.
-2. Enter the your email address. 
-3. Enter a password for your account.
-4. Verify your password by entering the same password again.
-5. Click on `Submit` button to create the account with the given email address and password.
-
-![Create Account](_static/gifs/gs-screenshot-user5-creating-account-with-caption.gif)
+For the rest of the tutorial, we assume that the user has already created an account. We also assume that the user belongs to a group with shared networks or that the user uploaded networks via the upload page or the RESTful API. The tutorial specifically steps through how [user1@example.com]() interacts with GraphSpace after logging in.
 
 ### Upload a graph
 
@@ -51,9 +54,7 @@ The user can upload a graph on [GraphSpace](http://www.graphspace.org) by follow
 The user can go to [a page that lists the graphs](http://www.graphspace.org/graphs/) accessible by the user on [GraphSpace](http://www.graphspace.org) by following the given steps:
 
 - Click on the button titled `Graphs` on the top navigation bar.
- 
      OR
-
 - Click on the `My Graphs` button on the [Home Page](http://www.graphspace.org/).
 
 In this example, the user owns 33 graphs, can access 64 public graphs and 33 graphs are shared with this user.
