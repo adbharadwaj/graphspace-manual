@@ -24,3 +24,4 @@ GraphSpace 2.0 User Manual
    Editing_Layouts
    Organizing_Graphs_Using_Tags
    Programmers_Guide
+   Release_Notes
