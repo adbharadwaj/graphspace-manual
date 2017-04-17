@@ -1,15 +1,15 @@
 # GraphSpace Network Model
 
-GraphSpace networks follow a [Cytoscape.js supported](http://js.cytoscape.org/#notation/elements-json) JSON format that separates the specification of the network structure (nodes and edges) from the description of the visual styles of the nodes and edges (e.g., colors, widths, shapes, labels). 
+GraphSpace networks follow a [Cytoscape.js supported](http://js.cytoscape.org/#notation/elements-json) [JSON](http://www.json.org/) format that separates the specification of the network structure (nodes and edges) from the description of the visual styles of the nodes and edges (e.g., colors, widths, shapes, labels). 
 
 1. [CYJS Format](#cyjs-format) - Format is defined by Cytoscape.js for storing network structure and data information.
-2. [Stylesheet JSON format](#stylesheet-json-format) - Format is defined by Cytoscape.js for storing the visual styles of the nodes and edges (e.g., colors, widths, shapes, labels) in CSS-based JSON format.
+2. [Stylesheet JSON format](#stylesheet-json-format) - Format is defined by Cytoscape.js for storing the visual styles of the nodes and edges (e.g., colors, widths, shapes, labels) in CSS-based [JSON](http://www.json.org/) format.
 
-The same format can be exported from or imported to Cytoscape (version 3.1.1 or greater). 
+Graph information in these formats can be exported from or imported to Cytoscape (version 3.1.1 or greater). 
 
 ## CYJS Format
 
-GraphSpace only supports one of the [Cytoscape.js supported](http://js.cytoscape.org/#notation/elements-json) JSON formats, which is:
+GraphSpace only supports one of the [Cytoscape.js supported](http://js.cytoscape.org/#notation/elements-json) [JSON](http://www.json.org/) formats for storing network structure and data information:
 
 ```
 {
@@ -45,8 +45,7 @@ GraphSpace only supports one of the [Cytoscape.js supported](http://js.cytoscape
     }
 }
 ```
-
-This [JSON (JavaScript Object Notation)](http://www.json.org/) format is defined by Cytoscape for storing network structure and data information. A Cytoscape (v3.1 or later) user can easily [export their graph](http://manual.cytoscape.org/en/stable/Cytoscape.js_and_Cytoscape.html#export-network-and-table-to-cytoscape-js) in above mentioned JSON format. We call the format as `CYJS format` because the extension of the exportable JSON file from Cytoscape App is `.cyjs`.
+A Cytoscape (v3.1 or later) user can easily [export their graph](http://manual.cytoscape.org/en/stable/Cytoscape.js_and_Cytoscape.html#export-network-and-table-to-cytoscape-js) in the above mentioned JSON format. We call the format as `CYJS format` because the extension of the exportable JSON file from Cytoscape App is `.cyjs`.
 
 **Note:** Any deviation from this format may result in GraphSpace rejecting the graph or problems in rendering the graph. 
 
