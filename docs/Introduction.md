@@ -14,6 +14,8 @@ user may search for networks for specific attributes and for the presence
 of a specific node or nodes. A powerful layout editor allows users to
 efficiently modify node positions, edit node and edge styles, save new
 layouts, and share them with other users. Users may make networks public and provide a persistent URL in a
-publication, enabling others to explore these networks.
+publication, enabling others to explore these networks. While users can view and interact with GraphSpace networks
+anonymously, several features become available after a user creates an
+account and logs in.
 
 GraphSpace is being developed by [T. M. Murali](http://bioinformatics.cs.vt.edu/~murali) 's research group in the Department of Computer Science at Virginia Tech.
