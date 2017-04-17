@@ -19,7 +19,10 @@ A graph owner may make the graph public through the REST API.
 When an anonymous user uploads a graph, it is by default a public graph, i.e., it is accessible to any user who visits GraphSpace and knows the URL of the graph.
 
 ## Groups
-A group is a collection of GraphSpace users. For example, if there are multiple researchers who are collaborating a project, a group may be created containing all of them. Another use case for a group is for all students registered in a network biology course. Once a GraphSpace user becomes a member of a group, the user may share any graph that he/she owns or a layout of such a graph with the group. Only members of that group will be able to access the graph. A user may share a graph will multiple graphs. Conversely, a user may be a member of multiple groups but share a graph only with some of these groups.
+
+A group is a collection of GraphSpace users. For example, if there are multiple researchers who are collaborating a project, a group may be created containing all of them. Another use case for a group is for all students registered in a network biology course.
+
+Groups lie at the core of GraphSpace’s functionality. Any GraphSpace user may create a group and add other GraphSpace users as members of the group using their email address. Group owners can also invite other users by sharing a signup link for the group. Groups are private by design. A member of a group may share any network he or she owns with the group. Only members of the group can view the shared network. Groups provide a level of privacy that is intermediate between the default (a network is visible only to its owner) and public networks (a network is visible to anyone).
 
 A **group owner** is the creator of the group. Any GraphSpace user can create a group by visiting the Groups page and clicking the "Create group" button. The group owner may
 - Invite any GraphSpace user that has an account to be a member of their group.
