@@ -93,6 +93,9 @@ highlights any edge whose tail node matches ``wnt`` and whose head node matches 
 
 The Graph Page is designed to access features like:
 
+In this section, we examine different ways to interact with an individual network on its page. The information that appears in following images must be included in the JSON files that are uploaded by the network owner, as described in the [Network Model](/GraphSpace_Network_Model.html) section.
+
+
 - Graph Information
 - Edge and Node Information
 - Export Graph
