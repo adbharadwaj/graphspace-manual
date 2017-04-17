@@ -10,7 +10,7 @@ GraphSpace supports three types of search terms:
 
 2. two strings separated by a colon, e.g., ``name:wnt``. Here, GraphSpace will return a network if the ``data`` section of its JSON representation contains an attribute called ``name`` whose value contains ``wnt`` as a substring.
 
-3. two strings separated by two colons, e.g., ``wnt::fzd``: This type of search term is only available when a user is searching a specific network. GraphSpace will highlight every edge that connects a node that matches \wnt" to a node that matches ``fzd``. This search ignores the direction of the edge.
+3. two strings separated by two colons, e.g., ``wnt::fzd``: This type of search term is only available when a user is searching a specific network. GraphSpace will highlight every edge that connects a node that matches ``wnt`` to a node that matches ``fzd``. This search ignores the direction of the edge.
 
 All searches are case-insensitive. A user may specify more than one search term. When the user searches all networks, GraphSpace returns only those networks that match all the search terms. When the user is visualizing an individual network and searching within it, GraphSpace highlights nodes and edges that match any search term
 
