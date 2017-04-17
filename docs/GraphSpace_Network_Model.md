@@ -152,8 +152,8 @@ GraphSpace gives users the freedom to include any attributes that best character
     
 - optional:
 
-    - `popup` - text - A string that will be displayed in a popup window when the user clicks the edge. This string can be HTML-formatted.
-    - `k` - integer - An integer index for this node. GraphSpace uses this attribute when the user seeks to step through the nodes and edges of the graph.
+    - `popup` - text - A string that will be displayed in a popup window when the user clicks the edge. This string can be HTML-formatted information, e.g., Gene Ontology annotations and database links for a protein; or types, mechanism, and database sources for an interaction.
+    - `k` - integer - An integer-valued attribute for this edge, which denotes a rank. Through this attribute, GraphSpace allows the user to filter nodes and edges in a network visualization.
 
 
 ### Sample JSON
