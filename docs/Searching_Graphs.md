@@ -1,6 +1,6 @@
 # Searching Graphs
 
-The search interface in GraphSpace allows a user to search for networks that have a specific attribute or tag and contain one or more nodes using [simple syntax](query-semantics). When the user visits a matching network, GraphSpace highlights the nodes that match the search term. An identical search interface on the page for an individual network enables the user to refine the query. This interface also enables the user to search for specific edges within the network.
+The search interface in GraphSpace allows a user to search for networks that have a specific attribute or tag and contain one or more nodes using [simple syntax](query-semantics). When the user visits a matching network, GraphSpace highlights the nodes that match the search term. An identical search interface on the page for an individual network enables the user to refine the query. This interface also enables the user to search for specific edges within the network. GraphSpace allows the user to record the URL to the network with the search terms, for sharing or for further study.
 
 ## Query Semantics
 
