@@ -62,9 +62,7 @@ The elements JSON object contains two types of lists:
 
 ### Graph Data Attributes
 
-Cytoscape.js supports a network-level ``data`` section in the JSON file specifying name-value pairs describing the graph. 
-
-In this section, GraphSpace gives users the freedom to include any attributes such as ``name``, ``title``, ``description``, and ``tags`` that best characterize the network. GraphSpace displays the ``name`` attribute to identify networks in the list that a user can access and in the list that match search results. When the user accesses a specific network, GraphSpace displays the ``title`` above the layout of the graph and the content of the ``description`` attribute in the tab called ``Graph Information``. The Graph Information tab for an individual network displays all its attributes and their values.
+Cytoscape.js supports a network-level ``data`` section in the JSON file specifying name-value pairs describing the graph. In this section, GraphSpace gives users the freedom to include any attributes such as ``name``, ``title``, ``description``, and ``tags`` that best characterize the network. GraphSpace displays the ``name`` attribute to identify networks in the list that a user can access and in the list that match search results. When the user accesses a specific network, GraphSpace displays the ``title`` above the layout of the graph and the content of the ``description`` attribute in the tab called ``Graph Information``. The Graph Information tab for an individual network displays all its attributes and their values.
 Graph also allows the users to search for networks with specific attribute values as described [here](). Cytoscape supports `Graph Data Attributes` for both import and export. The `Graph Data Attributes` are mapped to the Cytoscape network table for a network on import.
 
 Please refer to the [list of graph data attributes treated specially by GraphSpace](#graph-data-attributes-attributes-treated-specially-by-graphspace) to make the best use of GraphSpace's features.
@@ -106,7 +104,7 @@ The `Node Object` describes a node in the graph. A `Node Object` typically conta
 }           
 ```
 
-The `Edge Object` describes a node in the graph. An `Edge Object` typically contains a data object which is defined as following:
+The `Edge Object` describes an edge in the graph. An `Edge Object` typically contains a data object which is defined as following:
 
 - **Edge Data Attributes**: 
     
@@ -115,35 +113,36 @@ The `Edge Object` describes a node in the graph. An `Edge Object` typically cont
     
 ### Graph Data Attributes Attributes Treated Specially by GraphSpace
 
+GraphSpace gives users the freedom to include any attributes that best characterize the network. If the attributes are not specially treated by GraphSpace, they will be treated as "opaque". This means that GraphSpace will store or transmit the data without any processing.
+
 - required:
 
     - `name` – text – Name of the graph. Refer to [this section]() to find how `name` attribute is used for searching graphs.
     - `tags` – list of strings – Used to categorize graphs. See [Organizing Graphs Using Tags]() for more information.
-    - `description` – text – May be HTML formatted string. May be link to image hosted elsewhere. May simly be a string which contains information such as a legend or significance of the graph.
+    - `description` – text – May be HTML formatted string. May be link to image hosted elsewhere. May simly be a string which contains information such as a legend or significance of the graph. This information is displayed in the tab called [Graph Informtaion]().
     
 - optional:
 
-    - `title` – text – Name that is displayed on top of graph while viewing it.
-    
-**Note:** The user can use add more data attributes to embed information about the graph. If the attributes are not specially treated by GraphSpace, they will be treated as "opaque". This means that GraphSpace will store or transmit the data without any processing.
-
+    - `title` – text – Name that is displayed above the layout of the graph.
     
 ### Node Data Attributes Attributes Treated Specially by GraphSpace
 
+GraphSpace gives users the freedom to include any attributes that best characterize the node. If the attributes are not specially treated by GraphSpace, they will be treated as "opaque". This means that GraphSpace will store or transmit the data without any processing.
+
+
 - required:
 
-    - `id` – text – A unique id representing the node.
+    - `id` or `name` – text – A unique id representing the node. If both attributes are specified, we overwrite the `name` attribute with the value provided in `id` attribute.
     
 - optional:
 
     - `label` – text – The text that is displayed inside of the node unless it is overidden by the `content` style-attribute in the [stylesheet JSON](#stylesheet-json-format).
     - `popup` - text - A string that will be displayed in a popup window when the user clicks the node. This string can be HTML-formatted.
     - `k` - integer -An integer index for this node. GraphSpace uses this attribute when the user seeks to step through the nodes and edges of the graph.
-    
-**Note:** The user can use add more data attributes to embed information about the node. But, if the attributes are not specially treated by GraphSpace, they will be treated as "opaque". This means that GraphSpace will store or transmit the data without any processing.
-
 
 ### Edge Data Attributes Attributes Treated Specially by GraphSpace
+
+GraphSpace gives users the freedom to include any attributes that best characterize the edge. If the attributes are not specially treated by GraphSpace, they will be treated as "opaque". This means that GraphSpace will store or transmit the data without any processing.
 
 - required:
 
@@ -154,12 +153,11 @@ The `Edge Object` describes a node in the graph. An `Edge Object` typically cont
 
     - `popup` - text - A string that will be displayed in a popup window when the user clicks the edge. This string can be HTML-formatted.
     - `k` - integer - An integer index for this node. GraphSpace uses this attribute when the user seeks to step through the nodes and edges of the graph.
-    
-**Note:** The user can use add more data attributes to embed information about the edge. But, if the attributes are not specially treated by GraphSpace, they will be treated as "opaque". This means that GraphSpace will store or transmit the data without any processing.
+
 
 ### Sample JSON
 
-The following example is a CYJS formatted JSON for GraphSpace.
+The following example is a CYJS formatted JSON accepted by GraphSpace.
 
 ```json
 {
