@@ -16,12 +16,12 @@ All searches are case-insensitive. A user may specify more than one search term.
 
 ## Searching within Multiple Graphs
 
-The user can search for graph with a given name or node on [Graphs Page](http://www.graphspace.org/graphs/) by following the given steps:
+The user can search for search for networks that have a specific attribute or tag and contain one or more nodes using [simple syntax](query-semantics) on [Graphs Page](http://www.graphspace.org/graphs/) by following the given steps:
 
-1. Enter the name of the graph or node you are searching for in the search bar.
+1. Enter the name of the graph/node or specific network attribute mapping you are searching for in the search bar.
 2. Press `Enter` key or click on the `Search` button.
 
-In this example, the user searches for the list for graphs that contain the protein (node) `CTNNB1` (the symbol for β-catenin, a transcriptional regulator in the Wnt signaling pathway). The reduced list of graphs are the graphs where proteins names/labels (nodes) contain `CTNNB1` as a substring. In the following example, There are six graphs owned by the user and thirty-two public graphs that contain this protein. Each link in the `Graph Name` column will take the user to a specific graph with the search term highlighted. In this example, the user clicks on the graph with the name `KEGG-Wnt-signaling-pathway` and reaches the graph for the Wnt pathway with the searched node highlighted.
+In this example, the user searches for the list for graphs that contain the protein (node) `CTNNB1` (the symbol for β-catenin, a transcriptional regulator in the Wnt signaling pathway). The reduced list of graphs are the graphs where protein (node) ``name``, ``label`` or ``aliases`` contain `CTNNB1` as a substring. The match is case-insenstive. In the following example, There are six graphs owned by the user and thirty-two public graphs that contain this protein. Each link in the `Graph Name` column will take the user to a specific graph with the search term highlighted. In this example, the user clicks on the graph with the name `KEGG-Wnt-signaling-pathway` and reaches the graph for the Wnt pathway with the searched node highlighted.
 
 ![Searching within Multiple Graphs](_static/gifs/gs-screenshot-user1-searching-withing-multiple-graphs-with-caption.gif)
 
@@ -33,13 +33,14 @@ The user can search for node or edges within a given graph on [GraphSpace](http:
 2. The nodes or edges are highlighted automatically as you type in the name of the node or edge in the search bar.
 
 
-In the following example, the user searches for the graph for two proteins (nodes) `CTNNB1` and `WNT` using the query `ctnnb1, wnt`. This search query highlights the proteins where protein (node) name/label contains `CTNNB1` or `WNT` as a substring (case-insensitive). In the following example, the graph contains four nodes which match the given query.
+In the following example, the user searches for the graph for two proteins (nodes) `CTNNB1` and `WNT` using the query `ctnnb1, wnt`. This search query highlights the proteins where protein (node) ``name``, ``label`` or ``aliases`` contains `CTNNB1` or `WNT` as a substring (case-insensitive). In the following example, the graph contains four nodes which match the given query.
 
 ![Searching nodes within a Single Graph](_static/gifs/gs-screenshot-user1-searching-nodes-within-a-single-graphs-with-caption.gif)
 
 
-
-In the following example, the user searches for the graph for edges from `Wnt` to `Fzd` using the query `Wnt::Fzd`. This search query highlights any protein-protien interaction (edge) where tail node name or label contains `Wnt` as a substring and head node name or label contains `Fzd` as a substring. In the following example, the graph contains three edges which match the given query.
+In the following example, the user searches the graph for edges from `Wnt` to `Fzd` using the query `Wnt::Fzd`. GraphSpace
+highlights any edge whose tail node matches ``wnt`` and whose head node matches ``fzd``. In the following example, the graph contains three edges which match the given query.
 
 ![Searching edges within a Single Graph](_static/gifs/gs-screenshot-user1-searching-edges-within-a-single-graphs-with-caption.gif)
+
 
