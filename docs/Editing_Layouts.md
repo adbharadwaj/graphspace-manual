@@ -1,6 +1,9 @@
 # Editing Layouts
 
-GraphSpace provides powerful tools for the selection, movement, and organization of multiple nodes in a graph. The user can activate this functionality by clicking the `Use Layout Editor` button. 
+GraphSpace includes a powerful and intuitive layout editor that allows the user to quickly select nodes with
+specific properties (e.g., color and shape), to organize the selected nodes in defined shapes (e.g., a horizontal line or a filled circle), and to adjust the spacing between them. In addition, the user can manually move nodes into any configuration. The layout editor also allows users to manually change the visual properties of nodes and edges. Finally, the user can save the layout, make this layout appear by default, and share it with other viewers of the network. Only users that have access (i.e., owned or shared via a group) can manipulate a network layout.
+
+The user can activate this functionality by clicking the `Use Layout Editor` button. 
 
 ## Start Tour 
 
