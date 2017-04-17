@@ -37,7 +37,7 @@ The GraphSpace REST API is served over HTTP. In case you are
 
 ## graphspace-python
 
-A Python library for the GraphSpace REST API. It simplifies the process of authentication, request construction, and response parsing for Python developers using the GraphSpace API. This clientlib is built and tested on Python 2.7.
+The GraphSpace software also includes a simple yet powerful Python library called ``graphspace python`` that allows a user to rapidly construct a network, add nodes and edges, modify their visual styles, and then upload the network, all within tens of lines of code. Moreover, the user need not know the details of the REST API to use this module. It is very easy to integrate this library into a user's software pipeline.
 
 ### Installation
 
