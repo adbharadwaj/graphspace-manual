@@ -2,7 +2,8 @@
 
 ## GraphSpace REST API
 
-The GraphSpace REST API provides API endpoints for GraphSpace entities like graphs, layouts and groups that allow developers to interact with the GraphSpace website remotely by sending and receiving JSON (JavaScript Object Notation) objects. JSON is a lightweight and human-readable open standard data format. It looks like Objects in JavaScript; hence the name. When you send content to or make a request to the API, the response will be returned in JSON. This enables developers to create, read and update GraphSpace content from client-side JavaScript or from external applications, even those written in languages beyond Python.
+The GraphSpace REST API provides endpoints for entities such as graphs, layouts, and groups that allow developers to interact with the GraphSpace website remotely by sending and receiving JSON objects. This API enables developers to create, read, and
+update GraphSpace content from client-side JavaScript or from applications written in any language. After a network is uploaded, the API allows the network owner to modify, delete, and share it. The API also allows a user to access several group management features available through the web interface. For example, a user can create or remove a group, add or remove members, obtain a list of groups he or she belongs to, and get information such as the membership on a group.
 
 ```
 Note: In order to fully utilize the features of GraphSpace REST API, you must have an account on GraphSpace.
