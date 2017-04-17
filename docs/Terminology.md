@@ -14,7 +14,9 @@ When a registered user uploads a graph to GraphSpace either through the REST API
 ### Shared
 A graph owner may share a graph with one or more groups. At this point, the graph's visibility is **shared**, i.e., all members of these groups may view the graph.
 ### Public
-A graph owner may make the graph public through the REST API.
+
+An owner may make a specific network or all networks associated with a tag public, e.g., as accompanying information for a
+publication. All public networks and tags can be accessed using a URL to GraphSpace. For example, several automated reconstructions of human signaling pathways (Ritz et al., 2016) appear at [http://graphspace.org/graphs?tags=2015-npj-sysbio-appl-pathlinker](http://graphspace.org/graphs?tags=2015-npj-sysbio-appl-pathlinker).
 
 When an anonymous user uploads a graph, it is by default a public graph, i.e., it is accessible to any user who visits GraphSpace and knows the URL of the graph.
 
