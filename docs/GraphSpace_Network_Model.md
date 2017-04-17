@@ -118,7 +118,7 @@ GraphSpace gives users the freedom to include any attributes that best character
 - required:
 
     - `name` – text – Name of the graph. Refer to [this section]() to find how `name` attribute is used for searching graphs.
-    - `tags` – list of strings – Used to categorize graphs. See [Organizing Graphs Using Tags]() for more information.
+    - `tags` – list of strings – Used to categorize graphs. See the section on [organizing graphs using tags]() for more information.
     - `description` – text – May be HTML formatted string. May be link to image hosted elsewhere. May simly be a string which contains information such as a legend or significance of the graph. This information is displayed in the tab called [Graph Informtaion]().
     
 - optional:
@@ -138,8 +138,8 @@ GraphSpace gives users the freedom to include any attributes that best character
 	
     - `label` – text – The text that is displayed inside of the node unless it is overidden by the `content` style-attribute in the [stylesheet JSON](#stylesheet-json-format).  GraphSpace uses it to search for nodes with a matching name.
 	- `aliases` - list of strings - A list of alternative identifiers for the node. GraphSpace uses it to search for nodes with a matching name.
-    - `popup` - text - A string that will be displayed in a popup window when the user clicks the node. This string can be HTML-formatted.
-    - `k` - integer -An integer index for this node. GraphSpace uses this attribute when the user seeks to step through the nodes and edges of the graph.
+    - `popup` - text - A string that will be displayed in a popup window when the user clicks the node. This string can be HTML-formatted information, e.g., Gene Ontology annotations and database links for a protein; or types, mechanism, and database sources for an interaction.
+    - `k` - integer - An integer-valued attribute for this node, which denotes a rank. Through this attribute, GraphSpace allows the user to filter nodes and edges in a network visualization.
 
 ### Edge Data Attributes Attributes Treated Specially by GraphSpace
 
