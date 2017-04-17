@@ -47,6 +47,10 @@ GraphSpace only supports one of the [Cytoscape.js supported](http://js.cytoscape
 ```
 A Cytoscape (v3.1 or later) user can easily [export their graph](http://manual.cytoscape.org/en/stable/Cytoscape.js_and_Cytoscape.html#export-network-and-table-to-cytoscape-js) in the above mentioned JSON format. We call the format as `CYJS format` because the extension of the exportable JSON file from Cytoscape App is `.cyjs`.
 
+CYJS format structure consists of two core parts:
+1. [Elements JSON](#elements-json) - An object specifying the list of nodes and edges in the graph.
+2. [Graph Data Attributes](##graph-data-attributes) - An object specifying name-value pairs describing the graph.
+
 **Note:** Any deviation from this format may result in GraphSpace rejecting the graph or problems in rendering the graph. 
 
 ### Elements JSON
@@ -58,7 +62,12 @@ The elements JSON object contains two types of lists:
 
 ### Graph Data Attributes
 
-The `Graph Data Attributes` object specifies name-value pair describing the graph. The `Graph Data Attributes` are mapped to the Cytoscape network table for a network on import. Cytoscape supports `Graph Data Attributes` for both import and export. Please refer to [list of graph data attributes treated specially by GraphSpace](#graph-data-attributes-attributes-treated-specially-by-graphspace) to make the best use of GraphSpace's features.
+Cytoscape.js supports a network-level ``data`` section in the JSON file specifying name-value pairs describing the graph. 
+
+In this section, GraphSpace gives users the freedom to include any attributes such as ``name``, ``title``, ``description``, and ``tags`` that best characterize the network. GraphSpace displays the ``name`` attribute to identify networks in the list that a user can access and in the list that match search results. When the user accesses a specific network, GraphSpace displays the ``title`` above the layout of the graph and the content of the ``description`` attribute in the tab called ``Graph Information``. The Graph Information tab for an individual network displays all its attributes and their values.
+Graph also allows the users to search for networks with specific attribute values as described [here](). Cytoscape supports `Graph Data Attributes` for both import and export. The `Graph Data Attributes` are mapped to the Cytoscape network table for a network on import.
+
+Please refer to the [list of graph data attributes treated specially by GraphSpace](#graph-data-attributes-attributes-treated-specially-by-graphspace) to make the best use of GraphSpace's features.
     
 ### Node Object
 
@@ -78,7 +87,9 @@ The `Node Object` describes a node in the graph. A `Node Object` typically conta
 
 1. **Node Data Attributes**: 
     
-    Node Data Attributes specify name-value pairs describing the node. Cytoscape requires that each Node Object should have an  `id` data attribute which can uniquely identify the element in the graph. The users can define more data-attributes to describe the node. But, if the attributes are not specially treated by GraphSpace, they will be treated as "opaque". This means that GraphSpace will store or transmit the data without any processing. Please refer to [list of node data attributes treated specially by GraphSpace](#node-data-attributes-attributes-treated-specially-by-graphspace) to make the best use of GraphSpace's features.
+    Node Data Attributes specify name-value pairs describing the node. Cytoscape requires that each Node Object should have an  `id` or `name` data attribute which can uniquely identify the element in the graph. The users can define more data-attributes to describe the node. But, if the attributes are not specially treated by GraphSpace, they will be treated as "opaque". This means that GraphSpace will store or transmit the data without any processing. Please refer to [list of node data attributes treated specially by GraphSpace](#node-data-attributes-attributes-treated-specially-by-graphspace) to make the best use of GraphSpace's features.
+    
+    **Note**: GraphSpace uses `id` and `name` attributes interchangeably. If both attributes are specified, we overwrite the `name` attribute with the value provided in `id` attribute.
     
 2. **Position Attributes**: 
     
@@ -106,8 +117,8 @@ The `Edge Object` describes a node in the graph. An `Edge Object` typically cont
 
 - required:
 
-    - `name` – text – Name of the graph. It is later used for searching the graph in GraphSpace.
-    - `tags` – list of strings – Used to categorize graphs. See Tags for more information.
+    - `name` – text – Name of the graph. Refer to [this section]() to find how `name` attribute is used for searching graphs.
+    - `tags` – list of strings – Used to categorize graphs. See [Organizing Graphs Using Tags]() for more information.
     - `description` – text – May be HTML formatted string. May be link to image hosted elsewhere. May simly be a string which contains information such as a legend or significance of the graph.
     
 - optional:
