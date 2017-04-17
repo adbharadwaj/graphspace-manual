@@ -91,10 +91,7 @@ highlights any edge whose tail node matches ``wnt`` and whose head node matches 
 
 ## Interacting with a Graph
 
-The Graph Page is designed to access features like:
-
-In this section, we examine different ways to interact with an individual network on its page. The information that appears in following images must be included in the JSON files that are uploaded by the network owner, as described in the [Network Model](/GraphSpace_Network_Model.html) section.
-
+In this section, we examine different ways to interact with an individual network on its page. The information that appears in following examples must be included in the JSON files that are uploaded by the network owner, as described in the [Network Model](/GraphSpace_Network_Model.html) section. An individual network page is designed to access features like:
 
 - Graph Information
 - Edge and Node Information
@@ -104,14 +101,14 @@ In this section, we examine different ways to interact with an individual networ
 
 ### Graph Information
 
-As its name suggests, the `Graph Information` panel displays information about the entire graph, e.g., a legend of node and edge shapes and colors. The user can go to `Graph Information` panel by clicking on the `Graph Information` link above the graph. The information that appears in `Graph Information` panel must be included in the JSON for the graph uploaded by the user using the RESTful API.
+As its name suggests, the `Graph Information` panel displays information about the entire graph, e.g., a legend of node and edge shapes and colors. The ``description`` attribute in the JSON for the network specifies this content. The user can go to `Graph Information` panel by clicking on the `Graph Information` link above the graph.
 
 ![Graph Details](_static/gifs/gs-screenshot-user1-graph-information-with-caption.gif)
 
 
 ### Edge and Node Information
 
-Clicking on a node or edge pops up a panel with information on that node or edge. The information that appears in the pop-up panels must be included in the JSON for the graph uploaded by the user using the RESTful API.
+Clicking on a node or edge pops up a panel with information on that node or edge. The ``popup`` attribute for the node in the network JSON specifies this content.
 
 ![Edge and Node Information](_static/gifs/gs-screenshot-user1-node-edge-pop-up-with-caption.gif)
 
@@ -124,6 +121,8 @@ In the following example, the user is exporting the graph as an image in PNG for
 ![Export Graph](_static/gifs/gs-screenshot-user1-export-graph-png-with-caption.gif)
 
 ### Change Layout
+
+Layouts provide a powerful means to organize nodes within a network. The following figures illustrate how a user may access and view automatically generated and previously saved layouts.
 
 [GraphSpace](http://www.graphspace.org) allows users to change layout using the following steps:
 
