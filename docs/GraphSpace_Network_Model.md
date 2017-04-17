@@ -132,11 +132,12 @@ GraphSpace gives users the freedom to include any attributes that best character
 
 - required:
 
-    - `id` or `name` – text – A unique id representing the node. If both attributes are specified, we overwrite the `name` attribute with the value provided in `id` attribute.
+    - `id` or `name` – text – A unique id representing the node. If both attributes are specified, we overwrite the `name` attribute with the value provided in `id` attribute.  GraphSpace uses it to search for nodes with a matching name.
     
 - optional:
-
-    - `label` – text – The text that is displayed inside of the node unless it is overidden by the `content` style-attribute in the [stylesheet JSON](#stylesheet-json-format).
+	
+    - `label` – text – The text that is displayed inside of the node unless it is overidden by the `content` style-attribute in the [stylesheet JSON](#stylesheet-json-format).  GraphSpace uses it to search for nodes with a matching name.
+	- `aliases` - list of strings - A list of alternative identifiers for the node. GraphSpace uses it to search for nodes with a matching name.
     - `popup` - text - A string that will be displayed in a popup window when the user clicks the node. This string can be HTML-formatted.
     - `k` - integer -An integer index for this node. GraphSpace uses this attribute when the user seeks to step through the nodes and edges of the graph.
 
