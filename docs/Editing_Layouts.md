@@ -124,7 +124,7 @@ The following image shows the visual properties of an edge before and after the 
 </tr>
 </table>
 
-When a user launches the edge editor, it displays the current style values of the selected node if only one edge is selected. Whereas if more than one edge is selected, the node editor will display the values of style properties as blank. 
+When a user launches the edge editor, it displays the current style values of the selected edge if only one edge is selected. Whereas if more than one edge is selected, the node editor will display the values of style properties as blank. 
 
 
 
