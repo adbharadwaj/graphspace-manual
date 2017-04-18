@@ -95,9 +95,13 @@ Once the user enters the layout editor, they can select edges using the [gesture
 
 GraphSpace that allows a user to select one or more edges based on [color](#select-by-color) and/or [shape](#select-by-shape), and to then change their visual/style properties using an easy-to-use interface. The current interface allows user to change the following properties:
 
-1. **Line Color**: The colour of the edge’s line.
-2. **Line Style**: The style of the edge’s line. GraphSpace currently supports following line styles - solid, dotted, or dashed.
-3. **Width**: The width of an edge’s line in pixels.
+1. **Line Color**: The colour of the edge.
+2. **Line Style**: The style of the edge. GraphSpace currently supports following line styles - solid, dotted, or dashed.
+3. **Width**: The width of an edge in pixels.
+4. **Source Arrow Shape**: The shape of the edges source arrow
+5. **Target Arrow Shape**: The shape of the edges target arrow. GraphSpace currently suuports following arrow styles - tee, triangle, triangle-tee, triangle-backcurve, square, circle, diamond, or none
+
+The user can apply the changes by clicking on the ``OK`` button or discard them by clicking on the ``Cancel`` button in the edge editor.
 
 The following image shows the visual properties of an edge before and after the editing using the edge editor. In this example, user has made the following changes: (i) line color from grey to red (ii) line style from solid to dashed (iii) width  from 3px to 10px.
 
@@ -120,7 +124,7 @@ The following image shows the visual properties of an edge before and after the 
 </tr>
 </table>
 
-When a user launches the edge editor, it displays the current style values of the selected node if only one edge is selected. Whereas if more than one edge is selected, the node editor will display the values of style properties as blank. 
+When a user launches the edge editor, it displays the current style values of the selected edge if only one edge is selected. Whereas if more than one edge is selected, the node editor will display the values of style properties as blank. 
 
 
 
