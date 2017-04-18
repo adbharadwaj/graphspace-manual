@@ -2,12 +2,12 @@
 
 ## Welcome Screen
 
-The [welcome page](http://graphspace.org) greets a user when the user visits GraphSpace. The Welcome Screen is designed to access commonly used features of GraphSpace like:
+The [welcome page](http://graphspace.org) greets a user when the user visits [GraphSpace](http://graphspace.org). The Welcome Screen is designed to access commonly used features of [GraphSpace](http://graphspace.org) like:
 
-- Create Account
-- Log In
-- Upload a graph
-- List of uploaded graphs.
+- [Create Account](#create-account)
+- [Log In](#log-in)
+- [Upload a graph](#upload-a-graph)
+- [List of uploaded graphs](#list-of-uploaded-graphs)
 
 ### Create Account
 
@@ -34,16 +34,16 @@ The user can log-in to [GraphSpace](http://www.graphspace.org) by following the 
 
 ![Log In](_static/gifs/gs-screenshot-user1-logging-in-with-caption.gif)
 
-For the rest of the tutorial, we assume that the user has already created an account. We also assume that the user belongs to a group with shared networks or that the user uploaded networks via the upload page or the RESTful API. The tutorial specifically steps through how [user1@example.com]() interacts with GraphSpace after logging in.
+For the rest of the tutorial, we assume that the user has already created an account. We also assume that the user belongs to a group with shared networks or that the user uploaded networks via the [upload page](/Uploading_Graphs.html#upload-page) or the [RESTful API](/Programmers_Guide.html#api-reference). The tutorial specifically steps through how ``user1@example.com`` interacts with GraphSpace after logging in.
 
 ### Upload a graph
 
 The user can upload a graph on [GraphSpace](http://www.graphspace.org) by following the given steps:
 
 1. Go to the [Upload Graph Page](http://www.graphspace.org/upload) by clicking on the `Upload Graph` button on [Home Page](http://www.graphspace.org/).
-2. Enter a unique name for the new graph.
-3. Select a CYJS file which contains the graph information.
-4. Select a JSON file which contains the style information for the graph. (Optional Step)
+2. Enter a [unique name](/Uploading_Graphs.html#graph-name) for the new graph.
+3. Select a [CYJS file](/GraphSpace_Network_Model.html#cyjs-format) which contains the graph information.
+4. Select a [JSON file](/GraphSpace_Network_Model.html#stylesheet-json-format) which contains the style information for the graph. (Optional Step)
 5. Click on `Submit` button to upload the graph using the selected files.
 6. Once the graph has been uploaded, [GraphSpace](http://www.graphspace.org) will provide a unique URL through which the user may interact with the graph represented by the uploaded files.
 
@@ -62,7 +62,7 @@ In this example, the user owns 33 graphs, can access 64 public graphs and 33 gra
 
 ## Searching within Multiple Graphs
 
-The search interface in GraphSpace allows a user to search for networks that have a specific attribute or tag and contain one or more nodes using [simple syntax]() on [Graphs Page](http://www.graphspace.org/graphs/) by following the given steps:
+The search interface in GraphSpace allows a user to search for networks that have a specific attribute or tag and contain one or more nodes using [simple syntax](/Searching_Graphs.html#query-semantics) on [Graphs Page](http://www.graphspace.org/graphs/) by following the given steps:
 
 1. Enter the name of the graph/node or specific network attribute mapping you are searching for in the search bar.
 2. Press `Enter` key or click on the `Search` button.
