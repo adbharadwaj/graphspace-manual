@@ -105,6 +105,8 @@ As its name suggests, the `Graph Information` panel displays information about t
 
 ![Graph Details](_static/gifs/gs-screenshot-user1-graph-information-with-caption.gif)
 
+Please refer to [this section](/Viewing_Graphs.html#graph-information-tab) for more information.
+
 
 ### Edge and Node Information
 
@@ -112,7 +114,7 @@ Clicking on a node or edge pops up a panel with information on that node or edge
 
 ![Edge and Node Information](_static/gifs/gs-screenshot-user1-node-edge-pop-up-with-caption.gif)
 
-Please refer to [this section](/Viewing_Graphs.html#node-and-edge-popups) for detailed information.
+Please refer to [this section](/Viewing_Graphs.html#node-and-edge-popups) for more information.
 
 ### Export Graph
 
@@ -122,7 +124,7 @@ In the following example, the user is exporting the graph as an image in PNG for
 
 ![Export Graph](_static/gifs/gs-screenshot-user1-export-graph-png-with-caption.gif)
 
-Please refer to [this section](/Interacting_with_Graphs.html#export) for detailed information.
+Please refer to [this section](/Interacting_with_Graphs.html#export) for more information.
 
 ### Change Layout
 
@@ -136,9 +138,11 @@ Layouts provide a powerful means to organize nodes within a network. The followi
     - **Select Saved Layout** - List of layout saved by the user using GraphSpace. The user has created them in earlier sessions by manually modifying the positions of nodes and edges created by some automatic layout algorithm and saving the layout.
 3. Click on a layout option to change the current layout.
 
-In the following example, the user selects to view the layout titled "manual-top-to-bottom".
+In the following example, the user selects to view the layout titled "manual-top-to-bottom". To create this layout, the user manually moved nodes so that extracellular ligands and receptors (triangles) appear on the top while transcription factors (rectangles) appear at the bottom. The user can click on the ``Back`` button to return to the main menu.
     
 ![Change Layout](_static/gifs/gs-screenshot-user1-change-layout-with-caption.gif)
+
+Please refer to [this section](/Interacting_with_Graphs.html#change-layout) for more information.
 
 ### Share Layout
 
@@ -154,3 +158,6 @@ In the following example, the user selects to view the layout titled "manual-top
 Note: The icons next to each layout name allow the user to (i) change its name, (ii) share it with other users who have access to this graph, (iii) delete this layout.
 
 ![Share Layout](_static/gifs/gs-screenshot-user1-share-layout-with-caption.gif)
+
+Please refer to [this section](/Sharing_Graphs.html#sharing-layouts-with-group-s) for more information.
+
