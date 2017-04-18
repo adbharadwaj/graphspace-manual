@@ -39,7 +39,7 @@ algorithms supported by GraphSpace through its use of [Cytoscape.js](http://js.c
     - **Select Saved Layout** - This section lists layouts saved by the user. The user has created them in earlier sessions by using the layout editor or manually modifying the positions of nodes and edges created by some automatic layout algorithm and saving the layout.
 3. Click on a layout option to change the current layout.
  
- In the following example, the user selects to view the layout titled "manual-top-to-bottom".
+ In the following example, the user selects to view the layout titled ``manual-top-to-bottom``. To create this layout, the user manually moved nodes so that extracellular ligands and receptors (triangles) appear on the top while transcription factors (rectangles) appear at the bottom. The user can click on the ``Back`` button to return to the main menu.
     
 ![Change Layout](_static/gifs/gs-screenshot-user1-change-layout-with-caption.gif)
 
