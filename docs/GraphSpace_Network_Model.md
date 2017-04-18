@@ -1,6 +1,6 @@
 # GraphSpace Network Model
 
-GraphSpace networks follow a [Cytoscape.js supported](http://js.cytoscape.org/#notation/elements-json) [JSON](http://www.json.org/) format that separates the specification of the network structure (nodes and edges) from the description of the visual styles of the nodes and edges (e.g., colors, widths, shapes, labels). 
+[GraphSpace](http://graphspace.org) networks follow a [Cytoscape.js supported](http://js.cytoscape.org/#notation/elements-json) [JSON](http://www.json.org/) format that separates the [specification of the network structure](#cyjs-format) (nodes and edges) from the [description of the visual styles of the nodes and edges](#stylesheet-json-format) (e.g., colors, widths, shapes, labels). 
 
 1. [CYJS Format](#cyjs-format) - Format is defined by Cytoscape.js for storing network structure and data information.
 2. [Stylesheet JSON format](#stylesheet-json-format) - Format is defined by Cytoscape.js for storing the visual styles of the nodes and edges (e.g., colors, widths, shapes, labels) in CSS-based [JSON](http://www.json.org/) format.
@@ -9,7 +9,7 @@ Graph information in these formats can be exported from or imported to Cytoscape
 
 ## CYJS Format
 
-GraphSpace only supports one of the [Cytoscape.js supported](http://js.cytoscape.org/#notation/elements-json) [JSON](http://www.json.org/) formats for storing network structure and data information:
+[GraphSpace](http://graphspace.org) only supports one of the [Cytoscape.js supported](http://js.cytoscape.org/#notation/elements-json) [JSON](http://www.json.org/) formats for storing network structure and data information:
 
 ```
 {
@@ -48,7 +48,7 @@ GraphSpace only supports one of the [Cytoscape.js supported](http://js.cytoscape
 A Cytoscape (v3.1 or later) user can easily [export their graph](http://manual.cytoscape.org/en/stable/Cytoscape.js_and_Cytoscape.html#export-network-and-table-to-cytoscape-js) in the above mentioned JSON format. We call the format as `CYJS format` because the extension of the exportable JSON file from Cytoscape App is `.cyjs`.
 
 CYJS format structure consists of two core parts:
-1. [Elements JSON](#elements-json) - An object specifying the list of nodes and edges in the graph.
+1. [Elements JSON](#elements-json) - An object specifying the list of [nodes](#node-object) and [edges](#edge-object) in the graph.
 2. [Graph Data Attributes](##graph-data-attributes) - An object specifying name-value pairs describing the graph.
 
 **Note:** Any deviation from this format may result in GraphSpace rejecting the graph or problems in rendering the graph. 
@@ -62,8 +62,9 @@ The elements JSON object contains two types of lists:
 
 ### Graph Data Attributes
 
-Cytoscape.js supports a network-level ``data`` section in the JSON file specifying name-value pairs describing the graph. In this section, GraphSpace gives users the freedom to include any attributes such as ``name``, ``title``, ``description``, and ``tags`` that best characterize the network. GraphSpace displays the ``name`` attribute to identify networks in the list that a user can access and in the list that match search results. When the user accesses a specific network, GraphSpace displays the ``title`` above the layout of the graph and the content of the ``description`` attribute in the tab called ``Graph Information``. The Graph Information tab for an individual network displays all its attributes and their values.
-Graph also allows the users to search for networks with specific attribute values as described [here](). Cytoscape supports `Graph Data Attributes` for both import and export. The `Graph Data Attributes` are mapped to the Cytoscape network table for a network on import.
+Cytoscape.js supports a network-level ``data`` section in the JSON file specifying name-value pairs describing the graph. In this section, GraphSpace gives users the freedom to include any attributes such as ``name``, ``title``, ``description``, and ``tags`` that best characterize the network. GraphSpace displays the ``name`` attribute to identify networks in the list that a user can access and in the list that match search results. When the user accesses a specific network, GraphSpace displays the ``title`` above the layout of the graph and the content of the ``description`` attribute in the tab called [Graph Information](/Viewing_Graphs.html#graph-information-tab). The Graph Information tab for an individual network displays all its attributes and their values.
+
+Graph also allows the users to search for networks with specific attribute values as described [here](/Searching_Graphs.html#query-semantics). Cytoscape supports `Graph Data Attributes` for both import and export. The `Graph Data Attributes` are mapped to the Cytoscape network table for a network on import.
 
 Please refer to the [list of graph data attributes treated specially by GraphSpace](#graph-data-attributes-attributes-treated-specially-by-graphspace) to make the best use of GraphSpace's features.
     
@@ -113,37 +114,37 @@ The `Edge Object` describes an edge in the graph. An `Edge Object` typically con
     
 ### Graph Data Attributes Attributes Treated Specially by GraphSpace
 
-GraphSpace gives users the freedom to include any attributes that best characterize the network. If the attributes are not specially treated by GraphSpace, they will be treated as "opaque". This means that GraphSpace will store or transmit the data without any processing.
+[GraphSpace](http://graphspace.org) gives users the freedom to include any attributes that best characterize the network. If the attributes are not specially treated by GraphSpace, they will be treated as "opaque". This means that GraphSpace will store or transmit the data without any processing.
 
 - required:
 
-    - `name` – text – Name of the graph. Refer to [this section]() to find how `name` attribute is used for searching graphs.
-    - `tags` – list of strings – Used to categorize graphs. See the section on [organizing graphs using tags]() for more information.
-    - `description` – text – May be HTML formatted string. May be link to image hosted elsewhere. May simly be a string which contains information such as a legend or significance of the graph. This information is displayed in the tab called [Graph Informtaion]().
+    - `name` – text – Name of the graph. Refer to [query semantics](/Searching_Graphs.html#query-semantics) section to find how `name` attribute is used for [searching graphs]().
+    - `tags` – list of strings – Used to categorize graphs. See the section on [organizing graphs using tags](/Organizing_Graphs_Using_Tags.html) for more information.
+    - `description` – text – May be HTML formatted string. May be link to image hosted elsewhere. May simly be a string which contains information such as a [legend or significance of the graph](/Viewing_Graphs.html#graph-information-tab). This information is displayed in the tab called [Graph Informtaion](/Viewing_Graphs.html#graph-information-tab).
     
 - optional:
 
-    - `title` – text – Name that is displayed above the layout of the graph.
+    - `title` – text – Name that is [displayed above the layout of the graph](/Viewing_Graphs.html#graph-visualization-tab).
     
 ### Node Data Attributes Attributes Treated Specially by GraphSpace
 
-GraphSpace gives users the freedom to include any attributes that best characterize the node. If the attributes are not specially treated by GraphSpace, they will be treated as "opaque". This means that GraphSpace will store or transmit the data without any processing.
+[GraphSpace](http://graphspace.org) gives users the freedom to include any attributes that best characterize the node. If the attributes are not specially treated by GraphSpace, they will be treated as "opaque". This means that GraphSpace will store or transmit the data without any processing.
 
 
 - required:
 
-    - `id` or `name` – text – A unique id representing the node. If both attributes are specified, we overwrite the `name` attribute with the value provided in `id` attribute.  GraphSpace uses it to search for nodes with a matching name.
+    - `id` or `name` – text – A unique id representing the node. If both attributes are specified, we overwrite the `name` attribute with the value provided in `id` attribute.  GraphSpace uses it to [search for nodes with a matching name](/Searching_Graphs.html#query-semantics).
     
 - optional:
 	
-    - `label` – text – The text that is displayed inside of the node unless it is overidden by the `content` style-attribute in the [stylesheet JSON](#stylesheet-json-format).  GraphSpace uses it to search for nodes with a matching name.
-	- `aliases` - list of strings - A list of alternative identifiers for the node. GraphSpace uses it to search for nodes with a matching name.
-    - `popup` - text - A string that will be displayed in a popup window when the user clicks the node. This string can be HTML-formatted information, e.g., Gene Ontology annotations and database links for a protein; or types, mechanism, and database sources for an interaction.
-    - `k` - integer - An integer-valued attribute for this node, which denotes a rank. Through this attribute, GraphSpace allows the user to filter nodes and edges in a network visualization.
+    - `label` – text – The text that is displayed inside of the node unless it is overidden by the `content` style-attribute in the [stylesheet JSON](#stylesheet-json-format).  GraphSpace uses it to [search for nodes with a matching name](/Searching_Graphs.html#query-semantics).
+    - `aliases` - list of strings - A list of alternative identifiers for the node. GraphSpace uses it to [search for nodes with a matching name](/Searching_Graphs.html#query-semantics).
+    - `popup` - text - A string that will be displayed in a [popup window](/Viewing_Graphs.html#node-and-edge-popups) when the user clicks the node. This string can be HTML-formatted information, e.g., Gene Ontology annotations and database links for a protein; or types, mechanism, and database sources for an interaction.
+    - `k` - integer - An integer-valued attribute for this node, which denotes a rank. Through this attribute, GraphSpace allows the user to [filter nodes and edges](/Interacting_with_Graphs.html#filter-nodes-and-edges) in a network visualization.
 
 ### Edge Data Attributes Attributes Treated Specially by GraphSpace
 
-GraphSpace gives users the freedom to include any attributes that best characterize the edge. If the attributes are not specially treated by GraphSpace, they will be treated as "opaque". This means that GraphSpace will store or transmit the data without any processing.
+[GraphSpace](http://graphspace.org) gives users the freedom to include any attributes that best characterize the edge. If the attributes are not specially treated by GraphSpace, they will be treated as "opaque". This means that GraphSpace will store or transmit the data without any processing.
 
 - required:
 
@@ -152,8 +153,8 @@ GraphSpace gives users the freedom to include any attributes that best character
     
 - optional:
 
-    - `popup` - text - A string that will be displayed in a popup window when the user clicks the edge. This string can be HTML-formatted information, e.g., Gene Ontology annotations and database links for a protein; or types, mechanism, and database sources for an interaction.
-    - `k` - integer - An integer-valued attribute for this edge, which denotes a rank. Through this attribute, GraphSpace allows the user to filter nodes and edges in a network visualization.
+    - `popup` - text - A string that will be displayed in a [popup window](/Viewing_Graphs.html#node-and-edge-popups) when the user clicks the edge. This string can be HTML-formatted information, e.g., Gene Ontology annotations and database links for a protein; or types, mechanism, and database sources for an interaction.
+    - `k` - integer - An integer-valued attribute for this edge, which denotes a rank. Through this attribute, GraphSpace allows the user to [filter nodes and edges](/Interacting_with_Graphs.html#filter-nodes-and-edges) in a network visualization.
 
 
 ### Sample JSON
