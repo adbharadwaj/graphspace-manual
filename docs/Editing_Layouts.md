@@ -37,10 +37,10 @@ The following image shows the visual properties of a node before and after the e
 <table cellspacing="0">
 <tr> 
    <td class="">
-      <img src="_static/images/layout-editor/node-editor/gs-screenshot-user1-node-editor-before edit.png" alt="Before editing"/>
+      <img src="_static/images/layout-editor/node-editor/gs-screenshot-user1-node-editor-before-edit.png" alt="Before editing"/>
    </td>               
    <td class="">
-      <img src="_static/images/layout-editor/node-editor/gs-screenshot-user1-node-editor-after edit.png" alt="After editing"/>
+      <img src="_static/images/layout-editor/node-editor/gs-screenshot-user1-node-editor-after-edit.png" alt="After editing"/>
    </td> 
 </tr>
 <tr> 
