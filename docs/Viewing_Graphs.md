@@ -2,18 +2,18 @@
 
 When viewing a graph, you will notice several tabs above the graph. Clicking on a tab link will reveal the tab. The Graph Page has following 5 tabs:
 
-- Graph Visualization Tab
-- Graph Information Tab
-- Edges Tab
-- Nodes Tab
-- Layouts Tab
+- [Graph Visualization Tab](#graph-visualization-tab)
+- [Graph Information Tab](#graph-information-tab)
+- [Edges Tab](#edges-tab)
+- [Nodes Tab](#nodes-tab)
+- [Layouts Tab](#layouts-tab)
 
 
 ## Graph Visualization Tab
 
 The Graph Visualization Tab has two sections:
 - Left section shows the actual graph.
-- Right section shows multiple interaction options.
+- Right section shows multiple [interaction](/Interacting_with_Graphs.html) options.
 
 In this example, the graph has 325 edges and 132 nodes.
 
@@ -21,7 +21,7 @@ In this example, the graph has 325 edges and 132 nodes.
 
 ### Node and Edge Popups
 
-Each node or edge in a graph may have information embedded in it via the popup attribute. Clicking on a node or edge will [highlight](#highlighted-graph-elements) them. If the clicked node/edge contains popup attribute (see JSON reference), popup attribute's value will appear in a pop-up box; otherwise, no popup will be shown. If the popup attribute's value is formatted in HTML, GraphSpace will interpret it appropriately else it will use it as free-text information. 
+Each node or edge in a graph may have information embedded in it via the [popup attribute](/GraphSpace_Network_Model.html#node-data-attributes-attributes-treated-specially-by-graphspace). Clicking on a node or edge will [highlight](#highlighted-graph-elements) them. If the clicked node/edge contains popup attribute, popup attribute's value will appear in a pop-up box; otherwise, no popup will be shown. If the popup attribute's value is formatted in HTML, GraphSpace will interpret it appropriately else it will use it as free-text information. 
 
 The image below shows an example of the popup shown for a node JAK2. 
 
@@ -29,7 +29,7 @@ The image below shows an example of the popup shown for a node JAK2.
 
 ### Highlighted Graph Elements
 
-GraphSpace highlights nodes/edges if they are selected. If selected, GraphSpace highlights the elements by adding an overlay around the elements in red color.
+GraphSpace highlights nodes/edges if they are selected. If selected, [GraphSpace](http://graphspace.org) highlights the elements by adding an overlay around the elements in red color.
  
 
 <table cellspacing="0">
@@ -53,7 +53,7 @@ GraphSpace highlights nodes/edges if they are selected. If selected, GraphSpace 
 
 ## Graph Information Tab
 
-As its name suggests, the `Graph Information` tab displays information about the entire graph, e.g., a legend of node and edge shapes and colors. The ``description`` attribute in the JSON for the network specifies this content. The user can go to `Graph Information` tab by clicking on the `Graph Information` tab link above the graph. 
+As its name suggests, the `Graph Information` tab displays information about the entire graph, e.g., a legend of node and edge shapes and colors. The ``description`` attribute in the [JSON for the network](/GraphSpace_Network_Model.html#graph-data-attributes) specifies this content. The ``Graph Information`` tab for an individual network also displays all [its attributes and their values](/GraphSpace_Network_Model.html#graph-data-attributes). The user can go to `Graph Information` tab by clicking on the `Graph Information` tab link above the graph. 
 
 The image below shows an example of Graph Information Tab when user clicks on the `Graph Information` tab link:
 
