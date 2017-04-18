@@ -67,7 +67,7 @@ The search interface in GraphSpace allows a user to search for networks that hav
 1. Enter the name of the graph/node or specific network attribute mapping you are searching for in the search bar.
 2. Press `Enter` key or click on the `Search` button.
 
-In this example, the user searches for the list for graphs that contain the protein (node) `CTNNB1` (the symbol for β-catenin, a transcriptional regulator in the Wnt signaling pathway). The reduced list of graphs are the graphs where protein (node) ``name``, ``label`` or ``aliases`` contain `CTNNB1` as a substring. The match is case-insenstive. In the following example, There are six graphs owned by the user and thirty-two public graphs that contain this protein. Each link in the `Graph Name` column will take the user to a specific graph with the search term highlighted. In this example, the user clicks on the graph with the name `KEGG-Wnt-signaling-pathway` and reaches the graph for the Wnt pathway with the searched node highlighted.
+In this example, the user searches for the list for graphs that contain the protein (node) `CTNNB1` (the symbol for β-catenin, a transcriptional regulator in the Wnt signaling pathway). The reduced list of graphs are the graphs where protein (node) ``name``, ``label`` or ``aliases`` contain `CTNNB1` as a substring. The match is case-insenstive. In the following example, There are six graphs owned by the user and thirty-two public graphs that contain this protein. Each link in the `Graph Name` column will take the user to a specific graph with the search term [highlighted](/Viewing_Graphs.html#highlighted-graph-elements). In this example, the user clicks on the graph with the name `KEGG-Wnt-signaling-pathway` and reaches the graph for the Wnt pathway with the searched node [highlighted](/Viewing_Graphs.html#highlighted-graph-elements).
 
 ![Searching within Multiple Graphs](_static/gifs/gs-screenshot-user1-searching-withing-multiple-graphs-with-caption.gif)
 
@@ -75,42 +75,44 @@ In this example, the user searches for the list for graphs that contain the prot
 
 The user can search for node or edges within a given graph on [GraphSpace](http://www.graphspace.org/) by following the given steps:
 
-1. Enter the name of the node or an edge you are searching for in the search bar.
-2. The nodes or edges are highlighted automatically as you type in the name of the node or edge in the search bar.
+1. Enter the name of the node or an edge you are searching for in the [search bar](/Interacting_with_Graphs.html#search).
+2. The nodes or edges are [highlighted](/Viewing_Graphs.html#highlighted-graph-elements) automatically as you type in the name of the node or edge in the search bar.
 
 
-In the following example, the user searches for the graph for two proteins (nodes) `CTNNB1` and `WNT` using the query `ctnnb1, wnt`. This search query highlights the proteins where protein (node) ``name``, ``label`` or ``aliases`` contains `CTNNB1` or `WNT` as a substring (case-insensitive). In the following example, the graph contains four nodes which match the given query.
+In the following example, the user searches for the graph for two proteins (nodes) `CTNNB1` and `WNT` using the query `ctnnb1, wnt`. This search query [highlights](/Viewing_Graphs.html#highlighted-graph-elements) the proteins where protein (node) ``name``, ``label`` or ``aliases`` contains `CTNNB1` or `WNT` as a substring (case-insensitive). In the following example, the graph contains four nodes which match the given query.
 
 ![Searching nodes within a Single Graph](_static/gifs/gs-screenshot-user1-searching-nodes-within-a-single-graphs-with-caption.gif)
 
 
-In the following example, the user searches the graph for edges from `Wnt` to `Fzd` using the query `Wnt::Fzd`. GraphSpace
-highlights any edge whose tail node matches ``wnt`` and whose head node matches ``fzd``. In the following example, the graph contains three edges which match the given query.
+In the following example, the user [searches the graph for edges](/Searching_Graphs.html#query-semantics) from `Wnt` to `Fzd` using the query `Wnt::Fzd`. GraphSpace
+[highlights](/Viewing_Graphs.html#highlighted-graph-elements) any edge whose tail node matches ``wnt`` and whose head node matches ``fzd``. In the following example, the graph contains three edges which match the given query.
 
 ![Searching edges within a Single Graph](_static/gifs/gs-screenshot-user1-searching-edges-within-a-single-graphs-with-caption.gif)
 
 ## Interacting with a Graph
 
-In this section, we examine different ways to interact with an individual network on its page. The information that appears in following examples must be included in the JSON files that are uploaded by the network owner, as described in the [Network Model](/GraphSpace_Network_Model.html) section. An individual network page is designed to access features like:
+In this section, we examine [different ways to interact with an individual network](/Interacting_with_Graphs.html) on its page. The information that appears in following examples must be included in the JSON files that are uploaded by the network owner, as described in the [Network Model](/GraphSpace_Network_Model.html) section. An individual network page is designed to access features like:
 
-- Graph Information
-- Edge and Node Information
-- Export Graph
-- Change Layout
-- Share Layout
+- [Graph Information](#graph-information)
+- [Edge and Node Information](#edge-and-node-information)
+- [Export Graph](#export-graph)
+- [Change Layout](#change-layout)
+- [Share Layout](#share-layout)
 
 ### Graph Information
 
-As its name suggests, the `Graph Information` panel displays information about the entire graph, e.g., a legend of node and edge shapes and colors. The ``description`` attribute in the JSON for the network specifies this content. The user can go to `Graph Information` panel by clicking on the `Graph Information` link above the graph.
+As its name suggests, the `Graph Information` panel displays information about the entire graph, e.g., a legend of node and edge shapes and colors. The ``description`` attribute in the [JSON for the network](/GraphSpace_Network_Model.html#graph-data-attributes) specifies this content. The user can go to `Graph Information` panel by clicking on the `Graph Information` link above the graph.
 
 ![Graph Details](_static/gifs/gs-screenshot-user1-graph-information-with-caption.gif)
 
 
 ### Edge and Node Information
 
-Clicking on a node or edge pops up a panel with information on that node or edge. The ``popup`` attribute for the node in the network JSON specifies this content.
+Clicking on a node or edge pops up a panel with information on that node or edge. The ``popup`` attribute for the node in the [network JSON](/GraphSpace_Network_Model.html#cyjs-format) specifies this content.
 
 ![Edge and Node Information](_static/gifs/gs-screenshot-user1-node-edge-pop-up-with-caption.gif)
+
+Please refer to [this section](/Viewing_Graphs.html#node-and-edge-popups) for detailed information.
 
 ### Export Graph
 
@@ -119,6 +121,8 @@ Clicking on a node or edge pops up a panel with information on that node or edge
 In the following example, the user is exporting the graph as an image in PNG format.
 
 ![Export Graph](_static/gifs/gs-screenshot-user1-export-graph-png-with-caption.gif)
+
+Please refer to [this section](/Interacting_with_Graphs.html#export) for detailed information.
 
 ### Change Layout
 
