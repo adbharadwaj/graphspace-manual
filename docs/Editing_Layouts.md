@@ -18,7 +18,7 @@ A [GraphSpace](http://www.graphspace.org) user can change visual properties of a
 3. Change the visual properties of the selected nodes.
 4. Click on `OK` if you want to save the changes else click on `Cancel` button to cancel the changes.
 
-In the following example, the user is editing visual propeties of 'CTNNB1' node.
+Once the user enters the layout editor, they can select nodes using the [gestures](http://js.cytoscape.org/#notation/gestures) supported by Cytoscape.js (e.g., clicking to select one node, using the ``Shift`` button on the keyboard and the mouse to select multiple nodes) or the tool palette for selecting nodes in the layout editor. In this example, the user selects the node called ``CTNNB1`` and opens the node editor by clicking on the ``Edit selected nodes`` button. The user may select more than one node.
 
 ![editing nodes](_static/gifs/gs-screenshot-user1-wnt-pathway-reconstruction-node-editor-with-caption.gif)
 
@@ -27,10 +27,10 @@ In the following example, the user is editing visual propeties of 'CTNNB1' node.
 GraphSpace that allows a user to select one or more nodes based on [color](#select-by-color) and/or [shape](#select-by-shape), and to then change their visual properties using an easy-to-use interface. The current interface allows user to change the following properties:
 
 1. **Color**: The background color of the node.
-2. **Shape**: The shape of the node's body. GraphSpace currently supports following shapes - rectangle, roundrectangle, ellipse, triangle, pentagon, hexagon, heptagon, octagon, star, diamond, vee, or rhomboid.
-3. **Width**: The width of the node’s body in pixels.
-4. **Height**: The height of the node’s body in pixels.
-5. **Label**: The label inside of node's body. In addition to specifying the value of a property outright, the developer may also use a [mapper to dynamically specify the property value](http://js.cytoscape.org/#style/mappers). For example, data(k) would map a property to the value in an element’s `k` data-attribute. This feature can used for visualizing node annotations in the layouts.
+2. **Shape**: The shape of the node. GraphSpace currently supports following shapes - rectangle, roundrectangle, ellipse, triangle, pentagon, hexagon, heptagon, octagon, star, diamond, vee, or rhomboid.
+3. **Width**: The width of the node in pixels.
+4. **Height**: The height of the node in pixels.
+5. **Label**: The label inside the node.. In addition to specifying the value of a property outright, the developer may also use a [mapper to dynamically specify the property value](http://js.cytoscape.org/#style/mappers). For example, data(k) would map a property to the value in an element’s `k` data-attribute. This feature can used for visualizing node annotations in the layouts.
 
 The following image shows the visual properties of a node before and after the editing using the node editor. In this example, user has made the following changes: (i) background color from green to pink (ii) shape from rectangle to ellipse (iii) width and height from 45px to 100px (iv) label from 'CTNNB1' to 'New Label'.
 
@@ -85,7 +85,7 @@ A [GraphSpace](http://www.graphspace.org) user can change visual properties of a
 3. Change the visual properties of the selected edges.
 4. Click on `OK` if you want to save the changes else click on `Cancel` button to cancel the changes.
 
-In the following example, the user is editing visual propeties of an edge between `LRP6` and `DAB2`.
+Once the user enters the layout editor, they can select edges using the [gestures](http://js.cytoscape.org/#notation/gestures) supported by Cytoscape.js (e.g., clicking to select one edge, using the ``Shift`` button on the keyboard and the mouse to select multiple nodes). In this example, user selects the edge between ``LRP6`` and ``DAB2`` by clicking on it and opens the edge editor by clicking on ``Edit selected edges`` button.. The user may select more than one edge.
 
 ![editing edges](_static/gifs/gs-screenshot-user1-wnt-pathway-reconstruction-edge-editor-with-caption.gif)
 
