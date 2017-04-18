@@ -16,9 +16,9 @@ A [GraphSpace](http://www.graphspace.org) user can change visual properties of a
 1. Select one or more nodes either by [color](#select-by-color) or [shape](#select-by-shape) or using the [gestures](http://js.cytoscape.org/#notation/gestures) supported by Cytoscape.js.
 2. Click on the `Edit selected nodes` button to launch the [node editor](#node-editor).
 3. Change the visual properties of the selected nodes.
-4. Click on `OK` if you want to save the changes else click on `Cancel` button to cancel the changes.
+4. Click on `OK` if you want to save the changes else click on the `Cancel` button to discard the changes.
 
-Once the user enters the layout editor, they can select nodes using the [gestures](http://js.cytoscape.org/#notation/gestures) supported by Cytoscape.js (e.g., clicking to select one node, using the ``Shift`` button on the keyboard and the mouse to select multiple nodes) or the tool palette for selecting nodes in the layout editor. In this example, the user selects the node called ``CTNNB1`` and opens the node editor by clicking on the ``Edit selected nodes`` button. The user may select more than one node.
+Once the user enters the layout editor, they can select nodes using the [gestures](http://js.cytoscape.org/#notation/gestures) supported by Cytoscape.js (e.g., clicking to select one node, using the ``Shift`` button on the keyboard and the mouse to select multiple nodes) or the tool palette for selecting nodes in the layout editor. In this example, the user selects the node called ``CTNNB1`` and opens the node editor by clicking on the ``Edit selected nodes`` button. The user may select more than one node. At this point, the user can apply these changes by clicking on the ``OK`` button or discard them by clicking on the ``Cancel`` button.
 
 ![editing nodes](_static/gifs/gs-screenshot-user1-wnt-pathway-reconstruction-node-editor-with-caption.gif)
 
@@ -32,7 +32,9 @@ GraphSpace that allows a user to select one or more nodes based on [color](#sele
 4. **Height**: The height of the node in pixels.
 5. **Label**: The label inside the node.. In addition to specifying the value of a property outright, the developer may also use a [mapper to dynamically specify the property value](http://js.cytoscape.org/#style/mappers). For example, data(k) would map a property to the value in an element’s `k` data-attribute. This feature can used for visualizing node annotations in the layouts.
 
-The following image shows the visual properties of a node before and after the editing using the node editor. In this example, user has made the following changes: (i) background color from green to pink (ii) shape from rectangle to ellipse (iii) width and height from 45px to 100px (iv) label from 'CTNNB1' to 'New Label'.
+The user can apply the changes by clicking on the ``OK`` button or discard them by clicking on the ``Cancel`` button in the node editor.
+
+The following image shows the visual properties of a node before and after the editing using the node editor. In this example, user has made the following changes: (i) background color from green to pink (ii) shape from rectangle to ellipse (iii) width and height from 45px to 100px (iv) label from 'CTNNB1' to 'Updated CTNNB1'.
 
 <table cellspacing="0">
 <tr> 
