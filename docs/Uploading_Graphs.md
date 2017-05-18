@@ -2,11 +2,11 @@
 
 [GraphSpace](http://graphspace.org) networks follow the JavaScript Object Notation (JSON) format supported by Cytoscape.js. GraphSpace allows a user to upload a network in three different ways:
 
-1. Users may create their own [JSON files](/GraphSpace_Network_Model.html) and upload networks one-by one via the [web interface](#upload-page) at http://graphspace.org/upload.
+1. Users may create their own [JSON files](GraphSpace_Network_Model.html) and upload networks one-by one via the [web interface](#upload-page) at http://graphspace.org/upload.
 
-2. Cytoscape users may export their visually-coded networks from Cytoscape and [import them directly into GraphSpace](/Uploading_Graphs.html#style-file). This functionality works as follows. Since v3.1, Cytoscape has supported export of the structure of networks into JSON files and the visual elements of networks in JSON-based style files. GraphSpace can import [both these types of files](/GraphSpace_Network_Model.html) at http://graphspace.org/upload. Moreover, users can import a Cytoscape style file when they are [editing the layout](/Editing_Layouts.html) of a network in GraphSpace. In the future, we intend to develop a Cytoscape app to make the integration between the two systems seamless.
+2. Cytoscape users may export their visually-coded networks from Cytoscape and [import them directly into GraphSpace](Uploading_Graphs.html#style-file). This functionality works as follows. Since v3.1, Cytoscape has supported export of the structure of networks into JSON files and the visual elements of networks in JSON-based style files. GraphSpace can import [both these types of files](GraphSpace_Network_Model.html) at http://graphspace.org/upload. Moreover, users can import a Cytoscape style file when they are [editing the layout](Editing_Layouts.html) of a network in GraphSpace. In the future, we intend to develop a Cytoscape app to make the integration between the two systems seamless.
 
-3. A comprehensive [RESTful API](/Programmers_Guide.html#graphspace-rest-api) and a [Python module](/Programmers_Guide.html#graphspace-python) called “graphspace_python” facilitate bulk uploads of networks. Both the API and the module are easy to integrate into software pipelines. Please refer to the [Programmer's Guide](/Programmers_Guide.html) for more information.
+3. A comprehensive [RESTful API](Programmers_Guide.html#graphspace-rest-api) and a [Python module](Programmers_Guide.html#graphspace-python) called “graphspace_python” facilitate bulk uploads of networks. Both the API and the module are easy to integrate into software pipelines. Please refer to the [Programmer's Guide](Programmers_Guide.html) for more information.
 
 ## Upload Page
 
