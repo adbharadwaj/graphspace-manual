@@ -47,6 +47,10 @@ The user can upload a graph on [GraphSpace](http://www.graphspace.org) by follow
 5. Click on `Submit` button to upload the graph using the selected files.
 6. Once the graph has been uploaded, [GraphSpace](http://www.graphspace.org) will provide a unique URL through which the user may interact with the graph represented by the uploaded files.
 
+You can use the following sample files to learn how to upload graphs to GraphSpace:
+- [Sample network file](_static/sample_graph.cyjs)
+- [Sample style file](_static/sample_stylesheet.json)
+
 ![Upload a graph](_static/gifs/gs-screenshot-user1-upload-graph-with-caption.gif)
 
 ### List of uploaded graphs
