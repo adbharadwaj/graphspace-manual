@@ -32,7 +32,7 @@ The GraphSpace REST API is served over HTTP. In case you are
 
 ### API Reference
 
-<iframe src="http://35.163.136.54/static/api.html" style="height: 100vh;width: 100%;"></iframe>
+<iframe src="http://www.graphspace.org/static/api.html" style="height: 100vh;width: 100%;"></iframe>
 
 
 ## graphspace-python
